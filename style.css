@@ -1,6 +1,10 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
 
 body {
     font-family: quicksand;
+    margin: 0;
 }
 
 h1 {
@@ -16,6 +20,7 @@ h1 {
 .third-row {
     display: flex;
     justify-content: center;
+    align-content: center;
 }
 
 .container-md {
@@ -45,6 +50,7 @@ h1 {
     text-align: center;
     line-height: 100px;
     cursor: pointer;
+    align-items: center;
 
  
 }
@@ -60,6 +66,14 @@ h1 {
     font-weight: bold;
 }
 
+img {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    color: black;
+
+  }
+  
 
 
 /*Complete*/
@@ -67,6 +81,9 @@ h1 {
     width: 85px;
     height: 50px;
     margin: auto;/*centers play game button*/
+    display: flex;
+    align-items: center;
+    
     display: block; /*centers play game button*/
     text-align: center;
     font-family: quicksand;
@@ -88,13 +105,17 @@ h1 {
     transition-duration: 1s;
 }
 
-.material-symbols-outlined {
-    font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 48
-  }
+
+
+
+
+
+
+
+
+
+
+
 
 /* Media queries for mobile */
 @media only screen and (max-width: 480px) {
