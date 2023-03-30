@@ -1,4 +1,7 @@
 
+body {
+    font-family: quicksand;
+}
 .first-row,
 .second-row,
 .third-row {
@@ -43,36 +46,6 @@
     font-weight: bold;
 }
 
-#player-x, #player-o {
-    width: 83px;
-    height: 46px;
-    display: inline-block; /*property to make the buttons sit side by side*/
-    vertical-align: middle; /*aligns the buttons vertically*/
-    margin: 0 1rem 1rem 1rem;
-    border: 0.1rem solid rgb(211, 210, 210);
-    border-radius: 1rem;
-    box-shadow: 
-    0 0 .2rem #fff,
-    0 0 .2rem #fff,
-    0 0 2rem #bc13fe,
-    0 0 0.8rem #bc13fe,
-    0 0 .7rem #bc13fe,
-    inset 0 0 2.3rem #bc13fe;
-  }
-  .button-container{
-    margin: 3rem 1rem 0 40.2rem;
-
-  }
-
-
-  .player-button.active {
-    background-color: green;
-  }
-
-
-
-
-
 /*Complete*/
 #new-game-btn {
     width: 85px;
@@ -80,6 +53,8 @@
     margin: auto;/*centers play game button*/
     display: block; /*centers play game button*/
     text-align: center;
+    font-family: quicksand;
+    font-weight: bold;
     border: 0.1rem solid rgb(211, 210, 210);
     border-radius: 1rem;
     box-shadow: 
