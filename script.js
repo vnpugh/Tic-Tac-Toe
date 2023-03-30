@@ -1,4 +1,5 @@
 //Get the DOM Elements
+//Get all cells on the board
 const cells = document.querySelectorAll('.cell');
 const userMessage = document.getElementById('user-message');
 const newGameButton = document.getElementById('new-game-btn');
@@ -17,8 +18,9 @@ function startNewGame() {
   cells.forEach(cell => {
     cell.textContent = '';
   });
-  activeGame = true;
-  currentPlayer = 'X';
+  activeGame = true; //The game is active once the newGameButton is clicked
+  currentPlayer = 'X'; //initial player is set to 'X'
+  //US-3: As a user, I should be shown a message after each turn for if I win, lose, tie or who's turn it is next.
   // Display the user message
   userMessage.textContent = `It's ${currentPlayer}'s turn`;
 }
@@ -30,6 +32,7 @@ function startNewGame() {
 function handleCellClick(event) {
     //event.target is used to get the specific cell (target) clicked by the user.
     const cell = event.target;
+    //US-4: As a user, I should not be able to click the same square twice.
     //Need a condition to prevent the user from clicking on a cell 
     //that has been clicked -> So, not an empty cell. OR
     //User shouldn't be able to click a cell if the game is not active (!==activeGame)
@@ -39,7 +42,7 @@ function handleCellClick(event) {
           return; 
 }   
     if (cell.textContent !== '') {
-    return;
+    return;   //the player ia not allowed to click the same square twice.
 }
         //Need to set textContent to 'X' or 'O' when clicked by user.
         cell.textContent = currentPlayer;
@@ -49,6 +52,7 @@ function handleCellClick(event) {
         
         {   //Need winning message displayed if true 
             userMessage.textContent = `${currentPlayer} wins!`;
+            //US-6: As a user, I should not be able to continue playing once I win, lose, or tie.
             activeGame = false; //set to false to indicate the game is over
             return;
         }
@@ -58,6 +62,7 @@ function handleCellClick(event) {
         
         {   //Need to display tied game message
             userMessage.textContent = "It's a tie!";
+            //US-6: As a user, I should not be able to continue playing once I win, lose, or tie.
             activeGame = false; //set to false to indicate the game is over
             return;
         }
