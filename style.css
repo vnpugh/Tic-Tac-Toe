@@ -2,6 +2,15 @@
 body {
     font-family: quicksand;
 }
+
+h1 {
+    text-align: center; /* center the text */
+    font-size: 4rem;
+    margin-top: 60px; /* add margin to the top */
+    margin-bottom: 10px; /* add margin to the bottom */
+    padding: 5px; /* add padding */
+  }
+  
 .first-row,
 .second-row,
 .third-row {
@@ -41,10 +50,17 @@ body {
 }
 
 #user-message {
-    margin-top: 20px;
-    font-size: 1.5rem;
+    width: 200px;
+    height: 3rem;
+   
+    margin-left: 42rem;
+    font-size: 2rem;
+
+    text-align: center;
     font-weight: bold;
 }
+
+
 
 /*Complete*/
 #new-game-btn {
@@ -72,6 +88,13 @@ body {
     transition-duration: 1s;
 }
 
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
 
 /* Media queries for mobile */
 @media only screen and (max-width: 480px) {
@@ -87,11 +110,7 @@ body {
         line-height: 60px;
     }
     
-    #player-x, #player-o {
-        width: 40px;
-        height: 23px;
-        margin: 0 0.25rem 0.25rem 0.25rem;
-    }
+
     
     .button-container {
         margin: 1rem 0.5rem 0 12.2rem;
