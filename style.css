@@ -6,6 +6,9 @@
     justify-content: center;
 }
 
+.container-md {
+    margin-left: 8rem;
+}
 
 .cell {
     width: 100px;
@@ -23,7 +26,7 @@
     0 0 0.8rem #bc13fe,
     0 0 .7rem #bc13fe,
     inset 0 0 2.3rem #bc13fe;
-
+    
     
 
     font-size: 80px;
@@ -40,10 +43,60 @@
     font-weight: bold;
 }
 
+#player-x{
+    width: 100px;
+    height: 50px;
+    display: inline-block; /*make the buttons appear side by side*/
+    margin-right: 30px; 
+    text-align: center;
+    border: 0.1rem solid rgb(211, 210, 210);
+    border-radius: 1rem;
+    box-shadow: 
+    0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #bc13fe,
+    0 0 0.8rem #bc13fe,
+    0 0 .7rem #bc13fe,
+    inset 0 0 2.3rem #bc13fe;
+}
+
+#player-o {
+    width: 100px;
+    height: 50px;
+    display: inline-block; /*make the buttons appear side by side*/
+    margin-right: 30px; 
+    text-align: center;
+    border: 0.1rem solid rgb(211, 210, 210);
+    border-radius: 1rem;
+    box-shadow: 
+    0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #bc13fe,
+    0 0 0.8rem #bc13fe,
+    0 0 .7rem #bc13fe,
+    inset 0 0 2.3rem #bc13fe;
+}
+
+/*Complete*/
+#new-game-btn {
+    width: 100px;
+    height: 50px;
+    margin: auto;/*centers play game button*/
+    display: block; /*centers play game button*/
+    text-align: center;
+    border: 0.1rem solid rgb(211, 210, 210);
+    border-radius: 1rem;
+    box-shadow: 
+    0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #bc13fe,
+    0 0 0.8rem #bc13fe,
+    0 0 .7rem #bc13fe,
+    inset 0 0 2.3rem #bc13fe;
+}
 
 #new-game-btn:hover {
     background-color: rgb(4, 224, 92);
-    color: rgb(0, 0, 0);
     box-shadow: 0px 10px 20px 10px white;
     transition-duration: 1s;
 }
