@@ -1,0 +1,48 @@
+.first-row,
+.second-row,
+.third-row {
+    display: flex;
+    justify-content: center;
+}
+
+
+.cell {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    
+    
+    border: 0.1rem solid rgb(211, 210, 210);
+    border-radius: 1rem;
+
+    box-shadow: 
+    0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #bc13fe,
+    0 0 0.8rem #bc13fe,
+    0 0 .7rem #bc13fe,
+    inset 0 0 2.3rem #bc13fe;
+
+    
+
+    font-size: 80px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+
+ 
+}
+
+#user-message {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+#new-game-btn:hover {
+    background-color: rgb(4, 224, 92);
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 10px 20px 10px white;
+    transition-duration: 1s;
+}
