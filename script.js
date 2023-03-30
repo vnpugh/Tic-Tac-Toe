@@ -8,14 +8,18 @@ const resetBtn = document.getElementById('reset-btn');
 let currentPlayer = 'X';
 let activeGame = false; //set to false b/c I don't want the user to start the //game by clicking on a cell; only active when 'new-game-btn' is clicked.
 
-//US-1: As a user, I should be able to start a new tic tac toe game.
-//Add an event listener to the new game button
-newGameButton.addEventListener('click', startNewGame);
+
 //US-7: As a user, I should be able to play the game again without refreshing the page.
 function startNewGame() {
   //the function resets the game and updates the message for the current player.
+ 
+
+
+
   cells.forEach(cell => {
-    cell.textContent = '';
+    cell.addEventListener('click', handleCellClick);
+
+
   });
   activeGame = true; //The game is active once the newGameButton is clicked
   currentPlayer = 'X'; //initial player is set to 'X'
@@ -23,6 +27,13 @@ function startNewGame() {
   // Display the user message
   userMessage.textContent = `It's ${currentPlayer}'s turn`;
 }
+
+//US-1: As a user, I should be able to start a new tic tac toe game.
+//Add an event listener to the new game button
+newGameButton.addEventListener('click', startNewGame);
+
+
+
 
 
 resetBtn.addEventListener('click', resetGame);
@@ -34,6 +45,8 @@ function resetGame() {
   currentPlayer = 'X';
   userMessage.textContent = '';
 }
+
+
 
 
 //US-1: As a user, I should be able to start a new tic tac toe game.
@@ -146,3 +159,4 @@ function checkForTie() {
 cells.forEach(cell => {
   cell.addEventListener('click', handleCellClick);
 });
+
