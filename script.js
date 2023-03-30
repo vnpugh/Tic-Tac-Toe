@@ -137,10 +137,3 @@ function checkForTie() {
 cells.forEach(cell => {
   cell.addEventListener('click', handleCellClick);
 });
-
-
-
-
-
-
-

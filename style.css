@@ -11,8 +11,8 @@
 }
 
 .cell {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     margin: 20px;
     
     
@@ -43,12 +43,12 @@
     font-weight: bold;
 }
 
-#player-x{
-    width: 100px;
-    height: 50px;
-    display: inline-block; /*make the buttons appear side by side*/
-    margin-right: 30px; 
-    text-align: center;
+#player-x, #player-o {
+    width: 83px;
+    height: 46px;
+    display: inline-block; /*property to make the buttons sit side by side*/
+    vertical-align: middle; /*aligns the buttons vertically*/
+    margin: 0 1rem 1rem 1rem;
     border: 0.1rem solid rgb(211, 210, 210);
     border-radius: 1rem;
     box-shadow: 
@@ -58,28 +58,24 @@
     0 0 0.8rem #bc13fe,
     0 0 .7rem #bc13fe,
     inset 0 0 2.3rem #bc13fe;
-}
+  }
+  .button-container{
+    margin: 3rem 1rem 0 40.2rem;
 
-#player-o {
-    width: 100px;
-    height: 50px;
-    display: inline-block; /*make the buttons appear side by side*/
-    margin-right: 30px; 
-    text-align: center;
-    border: 0.1rem solid rgb(211, 210, 210);
-    border-radius: 1rem;
-    box-shadow: 
-    0 0 .2rem #fff,
-    0 0 .2rem #fff,
-    0 0 2rem #bc13fe,
-    0 0 0.8rem #bc13fe,
-    0 0 .7rem #bc13fe,
-    inset 0 0 2.3rem #bc13fe;
-}
+  }
+
+
+  .player-button.active {
+    background-color: green;
+  }
+
+
+
+
 
 /*Complete*/
 #new-game-btn {
-    width: 100px;
+    width: 85px;
     height: 50px;
     margin: auto;/*centers play game button*/
     display: block; /*centers play game button*/
@@ -99,4 +95,35 @@
     background-color: rgb(4, 224, 92);
     box-shadow: 0px 10px 20px 10px white;
     transition-duration: 1s;
+}
+
+
+/* Media queries for mobile */
+@media only screen and (max-width: 480px) {
+    .container-md {
+        margin-left: 0;
+    }
+    
+    .cell {
+        width: 40px;
+        height: 40px;
+        margin: 5px;
+        font-size: 40px;
+        line-height: 60px;
+    }
+    
+    #player-x, #player-o {
+        width: 40px;
+        height: 23px;
+        margin: 0 0.25rem 0.25rem 0.25rem;
+    }
+    
+    .button-container {
+        margin: 1rem 0.5rem 0 12.2rem;
+    }
+    
+    #new-game-btn {
+        width: 60px;
+        height: 30px;
+    }
 }
