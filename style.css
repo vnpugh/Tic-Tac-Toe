@@ -1,17 +1,19 @@
 *, *::after, *::before {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: quicksand;
-    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f7f7f7;
 }
 
 h1 {
     text-align: center; /* center the text */
     font-size: 4rem;
     margin-top: 60px; /* add margin to the top */
-    margin-bottom: 10px; /* add margin to the bottom */
+    margin: 60px auto 10px auto; /* add margin to the bottom */
     padding: 5px; /* add padding */
   }
   
@@ -23,16 +25,12 @@ h1 {
     align-content: center;
 }
 
-.container-md {
-    margin-left: 8rem;
-}
+
 
 .cell {
     width: 80px;
     height: 80px;
-    margin: 20px;
-    
-    
+    margin: 15px;
     border: 0.1rem solid rgb(211, 210, 210);
     border-radius: 1rem;
 
@@ -46,7 +44,6 @@ h1 {
     
     
 
-    font-size: 80px;
     text-align: center;
     line-height: 100px;
     cursor: pointer;
@@ -55,55 +52,86 @@ h1 {
  
 }
 
+
+
 #user-message {
     width: 200px;
     height: 3rem;
-   
     margin-left: 42rem;
+    margin-top: 2rem;
+    
     font-size: 2rem;
 
     text-align: center;
     font-weight: bold;
 }
 
-img {
-    width: 50px;
-    height: 50px;
-    margin: 20px;
-    color: black;
 
-  }
-  
-
-
-/*Complete*/
-#new-game-btn {
+#reset-btn, #new-game-btn {
     width: 85px;
-    height: 50px;
-    margin: auto;/*centers play game button*/
-    display: flex;
-    align-items: center;
-    
-    display: block; /*centers play game button*/
-    text-align: center;
+    height: 35px;
+    margin: auto; /* centers the buttons horizontally */
+    margin-top: 1rem; /* adds margin to the top */
+    margin-right: 0.4rem; /*creates space between the two btns */
     font-family: quicksand;
     font-weight: bold;
     border: 0.1rem solid rgb(211, 210, 210);
     border-radius: 1rem;
     box-shadow: 
-    0 0 .2rem #fff,
-    0 0 .2rem #fff,
-    0 0 2rem #bc13fe,
-    0 0 0.8rem #bc13fe,
-    0 0 .7rem #bc13fe,
-    inset 0 0 2.3rem #bc13fe;
-}
+      0 0 .2rem #fff,
+      0 0 .2rem #fff,
+      0 0 2rem #bc13fe,
+      0 0 0.8rem #bc13fe,
+      0 0 .7rem #bc13fe,
+      inset 0 0 2.3rem #bc13fe;
+    cursor: pointer;
+    display: inline-block; /* displays buttons inline */
+    vertical-align: middle; /* aligns buttons vertically in the middle */
+  }
+  
+  #new-game-btn{ /*moves the buttons over from the left*/
+    margin-left: 41.8rem;
+  }
+  
+ 
+  
 
 #new-game-btn:hover {
     background-color: rgb(4, 224, 92);
     box-shadow: 0px 10px 20px 10px white;
     transition-duration: 1s;
 }
+
+#reset-btn:hover {
+    background-color: rgb(153, 155, 154);
+    box-shadow: 0px 10px 20px 10px white;
+    transition-duration: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

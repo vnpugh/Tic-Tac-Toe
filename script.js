@@ -3,11 +3,10 @@
 const cells = document.querySelectorAll('.cell');
 const userMessage = document.getElementById('user-message');
 const newGameButton = document.getElementById('new-game-btn');
+const resetBtn = document.getElementById('reset-btn');
 
 let currentPlayer = 'X';
-     
-let activeGame = false; //set to false b/c I don't want the user to start the 
-//game by clicking on a cell; only active when 'new-game-btn' is clicked.
+let activeGame = false; //set to false b/c I don't want the user to start the //game by clicking on a cell; only active when 'new-game-btn' is clicked.
 
 //US-1: As a user, I should be able to start a new tic tac toe game.
 //Add an event listener to the new game button
@@ -24,6 +23,18 @@ function startNewGame() {
   // Display the user message
   userMessage.textContent = `It's ${currentPlayer}'s turn`;
 }
+
+
+resetBtn.addEventListener('click', resetGame);
+
+function resetGame() {
+  activeGame = false;
+  cells.forEach(cell => cell.removeEventListener('click', handleCellClick));
+  cells.forEach(cell => cell.textContent = '');
+  currentPlayer = 'X';
+  userMessage.textContent = '';
+}
+
 
 //US-1: As a user, I should be able to start a new tic tac toe game.
 //US-2: As a user, I should be able to click on a square to add X first and then O, and so on.
@@ -130,8 +141,6 @@ function checkForWin() {
 function checkForTie() {
       return Array.from(cells).every(cell => cell.textContent !== '');
 }
-
-
 
 //Clicking on Play Game button clears the board/starts the game
 cells.forEach(cell => {
