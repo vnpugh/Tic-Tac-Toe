@@ -11,9 +11,9 @@ body {
 
 h1 {
     text-align: center; /* center the text */
-    font-size: 4rem;
+    font-size: 3.2rem;
     margin-top: 60px; /* add margin to the top */
-    margin: 60px auto 10px auto; /* add margin to the bottom */
+    margin: 60px auto 5px auto; /* add margin to the bottom */
     padding: 5px; /* add padding */
   }
   
@@ -23,12 +23,13 @@ h1 {
     display: flex;
     justify-content: center;
     align-content: center;
+ 
 }
 
 .cell {
     width: 80px;
     height: 80px;
-    margin: 15px;
+    margin: 10px;
     border: 0.1rem solid rgb(211, 210, 210);
     border-radius: 1rem;
 
@@ -39,8 +40,6 @@ h1 {
     0 0 0.8rem #bc13fe,
     0 0 .7rem #bc13fe,
     inset 0 0 2.3rem #bc13fe;
-    
-    
 
     text-align: center;
     line-height: 100px;
@@ -51,7 +50,7 @@ h1 {
 }
 
 .cell:hover{
-    background-color: #fd32f6;
+    background-color: #ffffff;
     
     transition-duration: 1s;
 }
@@ -70,18 +69,42 @@ h1 {
     font-weight: bold;
 }
 
+.msg-container {
+
+
+    
+}
+
+.btn-container{
+    text-align: center;
+}
+
 .btn {
 
+
+
+   border-radius: 2rem;
    box-shadow: 
    0 0 .2rem #fff,
    0 0 .2rem #fff,
-   0 0 2rem #bc13fe,
+   0 0 3rem #bc13fe,
    0 0 0.8rem #bc13fe,
    0 0 .7rem #bc13fe,
    inset 0 0 2.3rem #bc13fe;
 }
 
+/*tackle individual buttons for hover effects*/
+#new-game-btn:hover {
+    background-color: #93ff00;
+    box-shadow: 0px 5px 5px 5px white;
+    transition-duration: 1s;
+}
 
+#reset-btn:hover {
+    background-color: rgb(223, 223, 223);
+    box-shadow: 0px 5px 5px 5px white;
+    transition-duration: 1s;
+}
 
 
 
