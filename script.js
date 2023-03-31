@@ -4,6 +4,7 @@ const cells = document.querySelectorAll('.cell');
 const userMessage = document.getElementById('user-message');
 const newGameButton = document.getElementById('new-game-btn');
 const resetBtn = document.getElementById('reset-btn');
+const clickSound = document.getElementById('click-sound');
 
 let currentPlayer = 'X';
 let activeGame = false; //set to false b/c I don't want the user to start the //game by clicking on a cell; only active when 'new-game-btn' is clicked.
@@ -12,25 +13,41 @@ let activeGame = false; //set to false b/c I don't want the user to start the //
 //US-7: As a user, I should be able to play the game again without refreshing the page.
 function startNewGame() {
 
-  // Stop the click sound
-  const clickSound = document.getElementById('click-sound');
-  clickSound.pause();
-  clickSound.currentTime = 0;
 
-
-
-
-  //the function resets the game and updates the message for the current player.
+  // Remove cell click event listeners
   cells.forEach(cell => {
-    cell.addEventListener('click', handleCellClick);
-
-
+    cell.removeEventListener('click', handleCellClick);
   });
+
   activeGame = true; //The game is active once the newGameButton is clicked
   currentPlayer = 'X'; //initial player is set to 'X'
+
+     // Add cell click event listeners
+  //the function resets the game and updates the message for the current player.
+  cells.forEach(cell => {
+   cell.addEventListener('click', handleCellClick);
+
+  });
+
+    // Disable new game button
+    newGameButton.disabled = true;
+
+
+      // Play click sound
+  clickSound.currentTime = 0;
+  clickSound.play();
+
+  //activeGame = true; //The game is active once the newGameButton is clicked
+  //currentPlayer = 'X'; //initial player is set to 'X'
+
+
   //US-3: As a user, I should be shown a message after each turn for if I win, lose, tie or who's turn it is next.
   // Display the user message
   userMessage.textContent = `It's ${currentPlayer}'s turn`;
+
+
+
+
 }
 
 //US-1: As a user, I should be able to start a new tic tac toe game.
@@ -49,6 +66,10 @@ function resetGame() {
   cells.forEach(cell => cell.textContent = '');
   currentPlayer = 'X';
   userMessage.textContent = '';
+
+   // Enable new game button
+   newGameButton.disabled = false;
+
 }
 
 
@@ -61,16 +82,6 @@ function resetGame() {
 function handleCellClick(event) {
     //event.target is used to get the specific cell (target) clicked by the user.
     const cell = event.target;
-
-// Play click sound
-const clickSound = document.getElementById('click-sound');
-clickSound.currentTime = 0; // Rewind to start in case the sound is already playing
-clickSound.play();
-
-
-
-
-
 
     //US-4: As a user, I should not be able to click the same square twice.
     //Need a condition to prevent the user from clicking on a cell 
@@ -110,6 +121,13 @@ clickSound.play();
          //US-5: As a user, I should be shown a message to take it's turn.
         changePlayer(); //call to switch the players from 'X' to 'O' (vice versa)
         userMessage.textContent = `It's ${currentPlayer}'s turn`;
+ 
+           // Play click sound
+  clickSound.currentTime = 0;
+  clickSound.play();
+
+
+
      //HTML userMessage variable to display the message -> user turn
     //Use textcontent -> to get text of div element (fill in the cell) -> to display if currentPlayer is 'X' or 'O'.
 }
@@ -123,6 +141,7 @@ function changePlayer() {
     currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
    
 }
+
 
 //What does this code do? A function with a condition that checks for a win in three directions: horizontal, vertical, and diagonal.
 //Easiest way is to use an array pattern instead of if statements
