@@ -1,0 +1,4 @@
+HURDLES
+*CSS Layout - took alot of trial and error
+*Working on the logic - the more animations and extras I wanted to include, this required researching
+the implementation and updating the code

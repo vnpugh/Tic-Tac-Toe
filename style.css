@@ -27,8 +27,8 @@ h1 {
 }
 
 .cell {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     margin: 10px;
     border: 0.1rem solid rgb(211, 210, 210);
     border-radius: 1rem;
@@ -72,7 +72,7 @@ h1 {
 .msg-container {
 
 
-    
+
 }
 
 .btn-container{
@@ -82,8 +82,8 @@ h1 {
 .btn {
 
 
-
-   border-radius: 2rem;
+   margin: 0.5rem;
+   border-radius: 0.5rem;
    box-shadow: 
    0 0 .2rem #fff,
    0 0 .2rem #fff,
@@ -99,6 +99,8 @@ h1 {
     box-shadow: 0px 5px 5px 5px white;
     transition-duration: 1s;
 }
+
+
 
 #reset-btn:hover {
     background-color: rgb(223, 223, 223);
