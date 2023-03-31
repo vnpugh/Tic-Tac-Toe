@@ -114,59 +114,99 @@ h1 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Media queries for mobile */
-@media only screen and (max-width: 480px) {
-    .container-md {
-        margin-left: 0;
+/* Media Query for screens smaller than 600px */
+@media screen and (max-width: 600px) {
+    h1 {
+      font-size: 3rem;
+      margin-top: 30px;
+      margin-bottom: 20px;
     }
     
     .cell {
-        width: 40px;
-        height: 40px;
-        margin: 5px;
-        font-size: 40px;
-        line-height: 60px;
+      width: 60px;
+      height: 60px;
+      margin: 10px;
     }
     
-
-    
-    .button-container {
-        margin: 1rem 0.5rem 0 12.2rem;
+    #user-message {
+      width: 100px;
+      margin-left: 20rem;
     }
     
     #new-game-btn {
-        width: 60px;
-        height: 30px;
+      margin-left: 20rem;
     }
-}
+  }
+  
+  /* Media Query for screens between 600px and 900px */
+  @media screen and (min-width: 601px) and (max-width: 900px) {
+    h1 {
+      font-size: 3.5rem;
+      margin-top: 50px;
+      margin-bottom: 30px;
+    }
+    
+    .cell {
+      width: 70px;
+      height: 70px;
+      margin: 12px;
+    }
+    
+    #user-message {
+      width: 150px;
+      margin-left: 32rem;
+    }
+    
+    #new-game-btn {
+      margin-left: 32rem;
+    }
+  }
+  
+  /* Media Query for screens larger than 900px */
+  @media screen and (min-width: 901px) {
+    h1 {
+      font-size: 4rem;
+      margin-top: 60px;
+      margin-bottom: 40px;
+    }
+    
+    .cell {
+      width: 80px;
+      height: 80px;
+      margin: 15px;
+    }
+    
+    #user-message {
+      width: 200px;
+      margin-left: 42rem;
+    }
+    
+    #new-game-btn {
+      margin-left: 41.8rem;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

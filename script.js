@@ -5,6 +5,9 @@ const userMessage = document.getElementById('user-message');
 const newGameButton = document.getElementById('new-game-btn');
 const resetBtn = document.getElementById('reset-btn');
 const clickSound = document.getElementById('click-sound');
+const winSquare = document.getElementById('win-square');
+const tiedGame = document.getElementById('tied-game');
+const trumpets = document.getElementById('trumpets');
 
 let currentPlayer = 'X';
 let activeGame = false; //set to false b/c I don't want the user to start the //game by clicking on a cell; only active when 'new-game-btn' is clicked.
@@ -103,6 +106,9 @@ function handleCellClick(event) {
         
         {   //Need winning message displayed if true 
             userMessage.textContent = `${currentPlayer} wins!`;
+                  // Play winning sound
+  winSquare.currentTime = 0;
+  winSquare.play();
             //US-6: As a user, I should not be able to continue playing once I win, lose, or tie.
             activeGame = false; //set to false to indicate the game is over
             return;
@@ -113,6 +119,9 @@ function handleCellClick(event) {
         
         {   //Need to display tied game message
             userMessage.textContent = "It's a tie!";
+
+           tiedGame.currentTime = 0;
+          tiedGame.play();
             //US-6: As a user, I should not be able to continue playing once I win, lose, or tie.
             activeGame = false; //set to false to indicate the game is over
             return;
