@@ -1,12 +1,12 @@
 *, *::after, *::before {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
 
 body {
     font-family: 'Quicksand', sans-serif;
-    background-color: #f7f7f7;
+    background-color: #750751; 
 }
 
 h1 {
@@ -24,8 +24,6 @@ h1 {
     justify-content: center;
     align-content: center;
 }
-
-
 
 .cell {
     width: 80px;
@@ -52,6 +50,12 @@ h1 {
  
 }
 
+.cell:hover{
+    background-color: #fd32f6;
+    
+    transition-duration: 1s;
+}
+
 
 
 #user-message {
@@ -66,46 +70,15 @@ h1 {
     font-weight: bold;
 }
 
+.btn {
 
-#reset-btn, #new-game-btn {
-    width: 85px;
-    height: 35px;
-    margin: auto; /* centers the buttons horizontally */
-    margin-top: 1rem; /* adds margin to the top */
-    margin-right: 0.4rem; /*creates space between the two btns */
-    font-family: quicksand;
-    font-weight: bold;
-    border: 0.1rem solid rgb(211, 210, 210);
-    border-radius: 1rem;
-    box-shadow: 
-      0 0 .2rem #fff,
-      0 0 .2rem #fff,
-      0 0 2rem #bc13fe,
-      0 0 0.8rem #bc13fe,
-      0 0 .7rem #bc13fe,
-      inset 0 0 2.3rem #bc13fe;
-    cursor: pointer;
-    display: inline-block; /* displays buttons inline */
-    vertical-align: middle; /* aligns buttons vertically in the middle */
-  }
-  
-  #new-game-btn{ /*moves the buttons over from the left*/
-    margin-left: 41.8rem;
-  }
-  
- 
-  
-
-#new-game-btn:hover {
-    background-color: rgb(4, 224, 92);
-    box-shadow: 0px 10px 20px 10px white;
-    transition-duration: 1s;
-}
-
-#reset-btn:hover {
-    background-color: rgb(153, 155, 154);
-    box-shadow: 0px 10px 20px 10px white;
-    transition-duration: 1s;
+   box-shadow: 
+   0 0 .2rem #fff,
+   0 0 .2rem #fff,
+   0 0 2rem #bc13fe,
+   0 0 0.8rem #bc13fe,
+   0 0 .7rem #bc13fe,
+   inset 0 0 2.3rem #bc13fe;
 }
 
 
@@ -114,78 +87,10 @@ h1 {
 
 
 
-/* Media Query for screens smaller than 600px */
-@media screen and (max-width: 600px) {
-    h1 {
-      font-size: 3rem;
-      margin-top: 30px;
-      margin-bottom: 20px;
-    }
-    
-    .cell {
-      width: 60px;
-      height: 60px;
-      margin: 10px;
-    }
-    
-    #user-message {
-      width: 100px;
-      margin-left: 20rem;
-    }
-    
-    #new-game-btn {
-      margin-left: 20rem;
-    }
-  }
-  
-  /* Media Query for screens between 600px and 900px */
-  @media screen and (min-width: 601px) and (max-width: 900px) {
-    h1 {
-      font-size: 3.5rem;
-      margin-top: 50px;
-      margin-bottom: 30px;
-    }
-    
-    .cell {
-      width: 70px;
-      height: 70px;
-      margin: 12px;
-    }
-    
-    #user-message {
-      width: 150px;
-      margin-left: 32rem;
-    }
-    
-    #new-game-btn {
-      margin-left: 32rem;
-    }
-  }
-  
-  /* Media Query for screens larger than 900px */
-  @media screen and (min-width: 901px) {
-    h1 {
-      font-size: 4rem;
-      margin-top: 60px;
-      margin-bottom: 40px;
-    }
-    
-    .cell {
-      width: 80px;
-      height: 80px;
-      margin: 15px;
-    }
-    
-    #user-message {
-      width: 200px;
-      margin-left: 42rem;
-    }
-    
-    #new-game-btn {
-      margin-left: 41.8rem;
-    }
-  }
-  
+
+
+
+
 
 
 

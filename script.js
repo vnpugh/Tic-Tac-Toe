@@ -1,5 +1,4 @@
 //Get the DOM Elements
-//Get all cells on the board
 const cells = document.querySelectorAll('.cell');
 const userMessage = document.getElementById('user-message');
 const newGameButton = document.getElementById('new-game-btn');
@@ -8,9 +7,31 @@ const clickSound = document.getElementById('click-sound');
 const winSquare = document.getElementById('win-square');
 const tiedGame = document.getElementById('tied-game');
 const trumpets = document.getElementById('trumpets');
+const beep = document.getElementById('beep');
+const resetSound = document.getElementById('reset-sound');
 
 let currentPlayer = 'X';
 let activeGame = false; //set to false b/c I don't want the user to start the //game by clicking on a cell; only active when 'new-game-btn' is clicked.
+
+  // Function to play the corresponding audio file when a player wins
+  function playWinSound() {
+    if (currentPlayer === 'X') {
+      winSquare.currentTime = 0;
+      winSquare.play();
+    } else {
+      trumpets.currentTime = 0;
+      trumpets.play();
+    }
+  }
+
+
+
+
+
+
+
+
+
 
 
 //US-7: As a user, I should be able to play the game again without refreshing the page.
@@ -37,8 +58,8 @@ function startNewGame() {
 
 
       // Play click sound
-  clickSound.currentTime = 0;
-  clickSound.play();
+ clickSound.currentTime = 0;
+clickSound.play();
 
   //activeGame = true; //The game is active once the newGameButton is clicked
   //currentPlayer = 'X'; //initial player is set to 'X'
@@ -70,8 +91,13 @@ function resetGame() {
   currentPlayer = 'X';
   userMessage.textContent = '';
 
+  resetSound.currentTime = 0;
+  resetSound.play();
+
    // Enable new game button
    newGameButton.disabled = false;
+  
+
 
 }
 
@@ -107,8 +133,7 @@ function handleCellClick(event) {
         {   //Need winning message displayed if true 
             userMessage.textContent = `${currentPlayer} wins!`;
                   // Play winning sound
-  winSquare.currentTime = 0;
-  winSquare.play();
+                  playWinSound();
             //US-6: As a user, I should not be able to continue playing once I win, lose, or tie.
             activeGame = false; //set to false to indicate the game is over
             return;
@@ -132,8 +157,8 @@ function handleCellClick(event) {
         userMessage.textContent = `It's ${currentPlayer}'s turn`;
  
            // Play click sound
-  clickSound.currentTime = 0;
-  clickSound.play();
+  beep.currentTime = 0;
+beep.play();
 
 
 
