@@ -11,11 +11,16 @@ let activeGame = false; //set to false b/c I don't want the user to start the //
 
 //US-7: As a user, I should be able to play the game again without refreshing the page.
 function startNewGame() {
+
+  // Stop the click sound
+  const clickSound = document.getElementById('click-sound');
+  clickSound.pause();
+  clickSound.currentTime = 0;
+
+
+
+
   //the function resets the game and updates the message for the current player.
- 
-
-
-
   cells.forEach(cell => {
     cell.addEventListener('click', handleCellClick);
 
@@ -56,6 +61,17 @@ function resetGame() {
 function handleCellClick(event) {
     //event.target is used to get the specific cell (target) clicked by the user.
     const cell = event.target;
+
+// Play click sound
+const clickSound = document.getElementById('click-sound');
+clickSound.currentTime = 0; // Rewind to start in case the sound is already playing
+clickSound.play();
+
+
+
+
+
+
     //US-4: As a user, I should not be able to click the same square twice.
     //Need a condition to prevent the user from clicking on a cell 
     //that has been clicked -> So, not an empty cell. OR
