@@ -2,3 +2,18 @@ HURDLES
 *CSS Layout - took alot of trial and error
 *Working on the logic - the more animations and extras I wanted to include, this required researching
 the implementation and updating the code
+
+MVP
+Bronze:
+Basic styling 
+player can press each cell for their turn
+game switches turns between player X and player 
+game logic checks if win or tie conditions are satisfied
+Silver:
+player can restart the game by pressing reset game button
+the winner is displayed on screen
+sound effects for player O and player x
+sound effects for play game and reset game buttons
+responsive style for mobile, laptop and desktop devices
+
+
