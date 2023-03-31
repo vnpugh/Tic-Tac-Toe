@@ -4,11 +4,17 @@ const userMessage = document.getElementById('user-message');
 const newGameButton = document.getElementById('new-game-btn');
 const resetBtn = document.getElementById('reset-btn');
 const clickSound = document.getElementById('click-sound');
-const winSquare = document.getElementById('win-square');
+const playerXWins = document.getElementById('player-x-wins');
+const playerOWins = document.getElementById('player-o-wins');
 const tiedGame = document.getElementById('tied-game');
-const trumpets = document.getElementById('trumpets');
-const beep = document.getElementById('beep');
+const xBeep = document.getElementById('x-beep');
+const oBeep = document.getElementById('o-beep');
 const resetSound = document.getElementById('reset-sound');
+
+//const beep = document.getElementById('beep');
+//const winSquare = document.getElementById('win-square');
+//const trumpets = document.getElementById('trumpets');
+
 
 let currentPlayer = 'X';
 let activeGame = false; //set to false b/c I don't want the user to start the //game by clicking on a cell; only active when 'new-game-btn' is clicked.
@@ -16,11 +22,11 @@ let activeGame = false; //set to false b/c I don't want the user to start the //
   // Function to play the corresponding audio file when a player wins
   function playWinSound() {
     if (currentPlayer === 'X') {
-      winSquare.currentTime = 0;
-      winSquare.play();
+      playerXWins.currentTime = 0;
+     playerXWins.play();
     } else {
-      trumpets.currentTime = 0;
-      trumpets.play();
+      playerOWins.currentTime = 0;
+      playerOWins.play();
     }
   }
 
@@ -155,16 +161,26 @@ function handleCellClick(event) {
          //US-5: As a user, I should be shown a message to take it's turn.
         changePlayer(); //call to switch the players from 'X' to 'O' (vice versa)
         userMessage.textContent = `It's ${currentPlayer}'s turn`;
- 
+  
+        // Play different sound depending on player
+              if (currentPlayer === 'O') {
+              // Play sound for player O
+                    oBeep.currentTime = 0;
+                    oBeep.play();
+            } else {
+               // Play sound for player X
+                   xBeep.currentTime = 0;
+                   xBeep.play();
+            }
+}
            // Play click sound
-  beep.currentTime = 0;
-beep.play();
-
-
+      //beep.currentTime = 0;
+      //beep.play();
+          
+ 
 
      //HTML userMessage variable to display the message -> user turn
-    //Use textcontent -> to get text of div element (fill in the cell) -> to display if currentPlayer is 'X' or 'O'.
-}
+    //Use textcontent -> to get text of div element (fill in the cell) -> to displa
 
 
 //US-2: As a user, I should be able to click on a square to add X first and then O, and so on.
@@ -228,4 +244,3 @@ function checkForTie() {
 cells.forEach(cell => {
   cell.addEventListener('click', handleCellClick);
 });
-
