@@ -120,12 +120,16 @@ width: 6rem;
     transition-duration: 1s;
 }
 
-
-#cell-top-left-1 {
-color: #bc13fe;
-    
+.X{
+    color: blueviolet;
+    font-size: 10px;
+    font-weight: bolder;
 }
-#cell-top-middle-2
+
+.O{
+    color: blue;
+}
+
 
 
 
