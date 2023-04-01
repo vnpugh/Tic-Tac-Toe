@@ -1,7 +1,7 @@
 //Get the DOM Elements
 const cells = document.querySelectorAll('.cell');
 const userMessage = document.getElementById('user-message');
-const newGameButton = document.getElementById('new-game-btn');
+const newGameButton = document.getElementById('new-game-btn'); //switched to fontawesome play icon
 const resetBtn = document.getElementById('reset-btn');
 const clickSound = document.getElementById('click-sound');
 const playerXWins = document.getElementById('player-x-wins');
@@ -17,7 +17,8 @@ const resetSound = document.getElementById('reset-sound');
 
 
 let currentPlayer = 'X';
-let activeGame = false; //set to false b/c I don't want the user to start the //game by clicking on a cell; only active when 'new-game-btn' is clicked.
+let activeGame = false; //set to false b/c I don't want the user to start the //game by clicking on a cell; 
+//only active when 'new-game-btn' is clicked.
 
   // Function to play the corresponding audio file when a player wins
   function playWinSound() {
@@ -122,17 +123,25 @@ function handleCellClick(event) {
     //Need a condition to prevent the user from clicking on a cell 
     //that has been clicked -> So, not an empty cell. OR
     //User shouldn't be able to click a cell if the game is not active (!==activeGame)
-    if  (!activeGame)     
-                {
+    if (!activeGame || cell.textContent !== '') {
+      return;
+    }
+    
+    
+    //if  (!activeGame)     
+                //{
         //checks if the game is active; can only play game when btn is clicked
-          return; 
-}   
-    if (cell.textContent !== '') {
-    return;   //the player ia not allowed to click the same square twice.
-}
+         // return; 
+//}   
+   // if (cell.textContent !== '') {
+   // return;   //the player ia not allowed to click the same square twice.
+//}
         //Need to set textContent to 'X' or 'O' when clicked by user.
         cell.textContent = currentPlayer;
-        
+        cell.classList.add(currentPlayer);
+
+
+
         //Need function to determine which player has won
         if (checkForWin()) 
         
