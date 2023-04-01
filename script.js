@@ -14,7 +14,8 @@ const resetSound = document.getElementById('reset-sound');
 //const beep = document.getElementById('beep');
 //const winSquare = document.getElementById('win-square');
 //const trumpets = document.getElementById('trumpets');
-
+const xText = 'X'
+const oText = 'O'
 
 let currentPlayer = 'X';
 let activeGame = false; //set to false b/c I don't want the user to start the //game by clicking on a cell; 
@@ -51,7 +52,7 @@ function startNewGame() {
   });
 
   activeGame = true; //The game is active once the newGameButton is clicked
-  currentPlayer = 'X'; //initial player is set to 'X'
+  currentPlayer = xText; //initial player is set to 'X'
 
      // Add cell click event listeners
   //the function resets the game and updates the message for the current player.
@@ -131,7 +132,7 @@ function handleCellClick(event) {
     //if  (!activeGame)     
                 //{
         //checks if the game is active; can only play game when btn is clicked
-         // return; 
+    
 //}   
    // if (cell.textContent !== '') {
    // return;   //the player ia not allowed to click the same square twice.
@@ -197,7 +198,9 @@ function handleCellClick(event) {
 function changePlayer() {
     //use ternary operator for if/else statement and to toggle between 'X' and 'O' for the currentPlayer
     //When the function is called -> If currentPlayer is 'X', then change other player to 'O', otherwise make player 'X'. 
-    currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
+   
+   // currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
+   currentPlayer = currentPlayer === xText ? oText : xText;
    
 }
 
