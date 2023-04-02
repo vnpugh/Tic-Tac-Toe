@@ -13,12 +13,12 @@ const resetSound = document.getElementById('reset-sound');
 
 
 
-let currentPlayer = 'X';
+let currentPlayer = '👽';
 let activeGame = false; //set to false b/c I don't want the user to start the //game by clicking on a cell; only active when 'new-game-btn' is clicked.
 
   // Function to play the corresponding audio file when a player wins
   function playWinSound() {
-    if (currentPlayer === 'X') {
+    if (currentPlayer === '👽') {
       playerXWins.currentTime = 0;
      playerXWins.play();
     } else {
@@ -39,7 +39,7 @@ function startNewGame() {
   });
 
   activeGame = true; 
-  currentPlayer = 'X'; //initial player is set to 'X'
+  currentPlayer = '👽'; //initial player is set to 'X'
 
      // Add cell click event listeners
   //the function resets the game and updates the message for the current player.
@@ -68,7 +68,9 @@ function resetGame() {
   activeGame = false;
   cells.forEach(cell => cell.removeEventListener('click', handleCellClick));
   cells.forEach(cell => cell.textContent = '');
-  currentPlayer = 'X';
+
+
+  currentPlayer = '👽';
   userMessage.textContent = '';
 
   resetSound.currentTime = 0;
@@ -94,6 +96,9 @@ function handleCellClick(event) {
         //checks if the game is active; can only play game when btn is clicked
           return; 
 }   
+
+
+
  //the player ia not allowed to click the same square twice.
           //}
         //Need to set textContent to 'X' or 'O' when clicked by user.
@@ -124,7 +129,7 @@ function handleCellClick(event) {
             return;
         }
 
-        currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
+        currentPlayer = currentPlayer === '👽' ? '👾': '👽';
         //userMessage.textContent = `It's ${currentPlayer}'s turn`;
         userMessage.textContent = `Player ${currentPlayer}`;
   currentPlayer === 'X' ? xBeep.play() : oBeep.play();
