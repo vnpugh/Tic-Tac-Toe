@@ -2,6 +2,7 @@
 const cells = document.querySelectorAll('.cell');
 const userMessage = document.getElementById('user-message');
 const resetBtn = document.getElementById('reset-btn');
+
 //Sounds
 const clickSound = document.getElementById('click-sound');
 const playerXWins = document.getElementById('player-x-wins');
