@@ -132,7 +132,7 @@ function handleCellClick(event) {
         currentPlayer = currentPlayer === '👽' ? '👾': '👽';
         //userMessage.textContent = `It's ${currentPlayer}'s turn`;
         userMessage.textContent = `Player ${currentPlayer}`;
-  currentPlayer === 'X' ? xBeep.play() : oBeep.play();
+  currentPlayer === '👽' ? xBeep.play() : oBeep.play();
 }
      
 
