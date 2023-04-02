@@ -2,6 +2,12 @@ HURDLES
 *CSS Layout - took alot of trial and error
 *Working on the logic - the more animations and extras I wanted to include, this required researching
 the implementation and updating the code
+*Figuring out how to disable the new-game-btn after a game has been played. I already added the disabled attribute to the newGameButton in the startNewGame function.
+*window.addEventListener('load', startNewGame) -> attaching the startNewGame function to the load event 
+listener inside the startNewGame function causes the game to run on an infinite loop.
+
+
+CONDITIONS - 1) winner, 2) tie
 
 MVP
 Bronze:

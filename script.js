@@ -1,8 +1,8 @@
 //Get the DOM Elements
 const cells = document.querySelectorAll('.cell');
 const userMessage = document.getElementById('user-message');
-const newGameButton = document.getElementById('new-game-btn'); //switched to fontawesome play icon
 const resetBtn = document.getElementById('reset-btn');
+//Sounds
 const clickSound = document.getElementById('click-sound');
 const playerXWins = document.getElementById('player-x-wins');
 const playerOWins = document.getElementById('player-o-wins');
@@ -11,15 +11,10 @@ const xBeep = document.getElementById('x-beep');
 const oBeep = document.getElementById('o-beep');
 const resetSound = document.getElementById('reset-sound');
 
-//const beep = document.getElementById('beep');
-//const winSquare = document.getElementById('win-square');
-//const trumpets = document.getElementById('trumpets');
-const xText = 'X'
-const oText = 'O'
+
 
 let currentPlayer = 'X';
-let activeGame = false; //set to false b/c I don't want the user to start the //game by clicking on a cell; 
-//only active when 'new-game-btn' is clicked.
+let activeGame = false; //set to false b/c I don't want the user to start the //game by clicking on a cell; only active when 'new-game-btn' is clicked.
 
   // Function to play the corresponding audio file when a player wins
   function playWinSound() {
@@ -33,17 +28,9 @@ let activeGame = false; //set to false b/c I don't want the user to start the //
   }
 
 
-
-
-
-
-
-
-
-
-
-//US-7: As a user, I should be able to play the game again without refreshing the page.
+       //US-7: As a user, I should be able to play the game again without refreshing the page.
 function startNewGame() {
+  
 
 
   // Remove cell click event listeners
@@ -51,8 +38,8 @@ function startNewGame() {
     cell.removeEventListener('click', handleCellClick);
   });
 
-  activeGame = true; //The game is active once the newGameButton is clicked
-  currentPlayer = xText; //initial player is set to 'X'
+  activeGame = true; 
+  currentPlayer = 'X'; //initial player is set to 'X'
 
      // Add cell click event listeners
   //the function resets the game and updates the message for the current player.
@@ -61,36 +48,21 @@ function startNewGame() {
 
   });
 
-    // Disable new game button
-    newGameButton.disabled = true;
-
-
-      // Play click sound
+ 
  clickSound.currentTime = 0;
 clickSound.play();
 
-  //activeGame = true; //The game is active once the newGameButton is clicked
-  //currentPlayer = 'X'; //initial player is set to 'X'
-
-
   //US-3: As a user, I should be shown a message after each turn for if I win, lose, tie or who's turn it is next.
   // Display the user message
-  userMessage.textContent = `It's ${currentPlayer}'s turn`;
-
-
-
+  //userMessage.textContent = `It's ${currentPlayer}'s turn`;
+  userMessage.textContent = `Player ${currentPlayer}`;
 
 }
 
 //US-1: As a user, I should be able to start a new tic tac toe game.
-//Add an event listener to the new game button
-newGameButton.addEventListener('click', startNewGame);
-
-
-
-
 
 resetBtn.addEventListener('click', resetGame);
+
 
 function resetGame() {
   activeGame = false;
@@ -102,14 +74,8 @@ function resetGame() {
   resetSound.currentTime = 0;
   resetSound.play();
 
-   // Enable new game button
-   newGameButton.disabled = false;
-  
 
-
-}
-
-
+} 
 
 
 //US-1: As a user, I should be able to start a new tic tac toe game.
@@ -124,25 +90,15 @@ function handleCellClick(event) {
     //Need a condition to prevent the user from clicking on a cell 
     //that has been clicked -> So, not an empty cell. OR
     //User shouldn't be able to click a cell if the game is not active (!==activeGame)
-    if (!activeGame || cell.textContent !== '') {
-      return;
-    }
-    
-    
-    //if  (!activeGame)     
-                //{
+    if (!activeGame || cell.textContent !== '')   {
         //checks if the game is active; can only play game when btn is clicked
-    
-//}   
-   // if (cell.textContent !== '') {
-   // return;   //the player ia not allowed to click the same square twice.
-//}
+          return; 
+}   
+ //the player ia not allowed to click the same square twice.
+          //}
         //Need to set textContent to 'X' or 'O' when clicked by user.
-        cell.textContent = currentPlayer;
-        cell.classList.add(currentPlayer);
-
-
-
+    cell.textContent = currentPlayer;
+        
         //Need function to determine which player has won
         if (checkForWin()) 
         
@@ -168,41 +124,16 @@ function handleCellClick(event) {
             return;
         }
 
-         //US-5: As a user, I should be shown a message to take it's turn.
-        changePlayer(); //call to switch the players from 'X' to 'O' (vice versa)
-        userMessage.textContent = `It's ${currentPlayer}'s turn`;
-  
-        // Play different sound depending on player
-              if (currentPlayer === 'O') {
-              // Play sound for player O
-                    oBeep.currentTime = 0;
-                    oBeep.play();
-            } else {
-               // Play sound for player X
-                   xBeep.currentTime = 0;
-                   xBeep.play();
-            }
+        currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
+        //userMessage.textContent = `It's ${currentPlayer}'s turn`;
+        userMessage.textContent = `Player ${currentPlayer}`;
+  currentPlayer === 'X' ? xBeep.play() : oBeep.play();
 }
-           // Play click sound
-      //beep.currentTime = 0;
-      //beep.play();
-          
- 
+     
 
-     //HTML userMessage variable to display the message -> user turn
-    //Use textcontent -> to get text of div element (fill in the cell) -> to displa
+resetBtn.addEventListener('click', startNewGame);
 
-
-//US-2: As a user, I should be able to click on a square to add X first and then O, and so on.
-//What does this code do? A function to toggle/change players (take turns during the game).
-function changePlayer() {
-    //use ternary operator for if/else statement and to toggle between 'X' and 'O' for the currentPlayer
-    //When the function is called -> If currentPlayer is 'X', then change other player to 'O', otherwise make player 'X'. 
-   
-   // currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
-   currentPlayer = currentPlayer === xText ? oText : xText;
-   
-}
+document.addEventListener('DOMContentLoaded', startNewGame);
 
 
 //What does this code do? A function with a condition that checks for a win in three directions: horizontal, vertical, and diagonal.
