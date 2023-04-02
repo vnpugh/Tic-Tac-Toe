@@ -23,3 +23,40 @@ sound effects for play game and reset game buttons
 responsive style for mobile, laptop and desktop devices
 
 
+MDN LINKS
+1. forEach() -> method executes a provided function once for each array element.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+
+2. textContent ->  represents the text content of the node and its descendants.
+https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent
+
+3. currentTime -> specifies the current playback time in seconds.
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/currentTime
+
+4. play() -> attempts to begin playback of the media. -> returns a promise (a proxy for a value).
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+
+5. some() -> tests whether at least one element in the array passes the test implemented by
+the provided function.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some
+
+6. every() -> tests whether all elements in the array pass the test implemented by the
+provided function -> returns a boolean value.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every
+
+7. template literal -> literals delimited with backtick (`) characters, allowing for strings
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+
+8. removeEventListener() -> does not trigger the event when removed, but can be reattached.
+https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/removeEventListener
+
+9.addEventListener() -> register/ add an event listener to any HTML DOM object such as HTML elements.
+https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+
+10. Array.from -> static method creates a new, shallow-copied Array instance.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from
+
+11. Destructuring assignment -> makes it possible to unpack values from arrays, or properties
+from objects, into distinct variables -> binding and assignment patterns.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#binding_and_assignment
