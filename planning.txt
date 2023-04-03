@@ -25,7 +25,7 @@ IV. Building the Game
        *Describe how you solved for the winner;
        *Describe how some of your favorite functions work.
     2. Technologies/Tools Used
-            A. Project Planning
+            A. Project Management
                   i. Github Projects (Kanban Board)
             B. Version Control
                   i. GitHub
