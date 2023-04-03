@@ -36,7 +36,7 @@ I also made a simple Tic-Tac-Toe flow chart to further polish the game's reasoni
 <h2>Project Management</h2>
 I prioritized the user stories using the Projects tool in GitHub after building the UI wireframe, flowchart, and analyzing the necessary user stories. This method was very useful because it allowed me to keep track of my progress by grouping and sorting the user stories according to their level of difficulty.
 <p align="center">
-<img align="center" width="510" height="320" src="images/gitprojects.png" alt="projects">
+<img align="center" width="500" height="400" src="images/gitprojects.png" alt="projects">
 </p>
 <h1>Building the Game</h1>
  <h2>Technical Requirements</h2>
@@ -59,8 +59,6 @@ I prioritized the user stories using the Projects tool in GitHub after building 
 ⬛Git Bash (Command Line)
 ⬛Visual Studio Code (Text Editor)
 💻Chrome Developer Tools (Inspect & Debugging)
-💻Google Chrome Browser (Displaying/Inspecting the App on Desktop)
-💻Safari Browser (Displaying/Inspecting the App on iPhone)
  <li>Wireframing</li>
  🎨Canva
  <li>Languages & Frameworks</li>
@@ -71,8 +69,22 @@ I prioritized the user stories using the Projects tool in GitHub after building 
  <li>Royalty Free Images, Fonts & Audio</li>
 🖼️Pixabay
  ➰Google Fonts
- 🎵   iii. Soundstripe
+ 🎵Soundstripe
  <li>Deployment</li>
  🖥️GitHub Pages
+</ul>
+ <h2>Project Challenges😖</h2>
+<p>◾One hurdle for me was figuring out how to implement some of the GOLD product features such as local storage and playing against the computer (AI). This was frustrating because I wanted to add these advanced features to the finished product, but time was not on my side. I needed more
+time to research the implementation process and to write the code.
+</p>
 
+ <h2>Project Wins🏆</h2>
+<h1>The Finished Product</h1>
+<h2>Galaxy Tic-Tac-Toe</h2>
+
+<h3>Current Features</h3>
+<ul>
+ <li>Wireframing</li>
+  <li>Wireframing</li>
+   <li>Wireframing</li>
 </ul>
