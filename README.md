@@ -33,21 +33,24 @@ I also made a simple Tic-Tac-Toe flow chart to further polish the game's reasoni
 <p align="center">
 <img align="center" width="500" height="300" src="images/Interface.png" alt="wireframe">
 </p>
-<h2>Project Management</h2>
+<h2>Project Management</h2> br
 I prioritized the user stories using the Projects tool in GitHub after building the UI wireframe, flowchart, and analyzing the necessary user stories. This method was very useful because it allowed me to keep track of my progress by grouping and sorting the user stories according to their level of difficulty.
 <p align="center">
 <img align="center" width="510" height="320" src="images/gitprojects.png" alt="projects">
 </p>
-
 <h1>Building the Game</h1>
  <h2>Technical Requirements</h2>
  <ul>
-<li>Build a web application from scratch with semantic markup for HTML, CSS & JavaScript (DOM manipulation).</li>
-<li>Build a dynamic game that allows two players to compete from the same computer.</li>
-<li>Separate HTML, CSS, and JavaScript files in the application.</li>
-<li>Leverage DRY (Don't Repeat Yourself) principles.</li>
-<li>The application renders in various browsers (Chrome & Edge) and runs without errors.</li>
-<li> The project should be deployed to GitHub Pages or a custom domain.</li>
-<li>The repo must have a README that adequately documents the project.</li>
+<li>Build a web application from scratch with semantic markup for HTML, CSS & JavaScript (DOM     m  manipulation).✅</li>
+<li>Build a dynamic game that allows two players to compete from the same computer.✅</li>
+<li>Separate HTML, CSS, and JavaScript files in the application.✅</li>
+<li>Leverage DRY (Don't Repeat Yourself) principles.✅</li>
+<li>The application renders in various browsers (Chrome & Edge) and runs without errors.✅</li>
+<li> The project should be deployed to GitHub Pages or a custom domain.✅</li>
+<li>The repo must have a README that adequately documents the project.✅</li>
 </ul>
- <h2>Technologies & Tools Used</h2>
+ <h2>Technologies & Tools Used 🛠️</h2>
+  <ul>
+ *Build a web application from scratch with semantic markup for HTML, CSS & JavaScript (DOM manipulation).</li>
+
+</ul>
