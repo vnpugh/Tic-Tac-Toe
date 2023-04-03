@@ -87,7 +87,7 @@ time to research the implementation process and to write the code.
 <h1>The Finished Product</h1>
 <h2>Galaxy Tic-Tac-Toe</h2>
 <h4>Desktop Screenshot</h4>
-<img width="900" height="700" src="images/desktop.png" alt="desktop">
+<img width="1000" height="700" src="images/desktop.png" alt="desktop">
 <h4>Tablet Screenshot</h4>
 <img width="520" height="500" src="images/tablet.png" alt="tablet">
 <h4>Mobile (iPhone) Screenshot</h4>
