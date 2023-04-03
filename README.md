@@ -89,9 +89,9 @@ time to research the implementation process and to write the code.
 <h4>Desktop Screenshot</h4>
 <img width="1600" height="400" src="images/desktop.png" alt="desktop">
 <h4>Tablet Screenshot</h4>
-<img width="520" height="500" src="images/tablet.png" alt="tablet">
+<img width="520" height="480" src="images/tablet.png" alt="tablet">
 <h4>Mobile (iPhone) Screenshot</h4>
-<img width="280" height="510" src="images/mobile.jpg" alt="mobile">
+<img width="280" height="500" src="images/mobile.jpg" alt="mobile">
 <h2>Current Features</h2>
 <ul>
 <li>Emojis are used for Player X (👽) and Player O (👾) to make the game fun and engaging.</li>
