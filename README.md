@@ -13,6 +13,16 @@ No installation is needed to play the game. The application can be played in the
 the following link: (*Add deployed page*)
 </p>
 <h1>The Planning Process</h1>
+<h2>Prioritizing the User Stories</h2>
 <p>
-Planning before writing code and starting a project is crucial to ensure its success. This process helps define the project's objectives, identify the requirements, and reduce scope creep. As a developer, I started by identifying the MVP (Minimum Viable Product) - the bare minimum required to deliver the desired outcome. In the case of building a Tic-Tac-Toe board, the acceptable MVP consists of an HTML page with a table of nine cells, enough Javascript to display the current player, and a touch of CSS to make the cells visible. I then begin by creating a basic version of the game in HTML and CSS with minimal styling. This approach allowed me to focus on delivering a product that meets the project's objectives while keeping the ultimate goal in sight.
+Planning before writing code and starting a project is crucial to ensure its success. This process helps define the project's objectives, identify the requirements, and reduce scope creep. As a developer, I started by identifying the MVP (Minimum Viable Product) - the bare minimum required to deliver the desired outcome. In the case of building a Tic-Tac-Toe board, the acceptable MVP consists of an HTML page with a table of nine cells, enough Javascript to display the current player, and a touch of CSS to make the cells visible. Focusing on the MVP first also allowed me to get a good understanding of the required <strong>user stories</strong> needed to build the game:
+<ul>
+<li>As a user, I should be able to start a new tic tac toe game.</li>
+<li>As a user, I should be able to click on a square to add X first and then O, and so on.</li>
+<li>As a user, I should be shown a message after each turn for if I win, lose, tie or who's turn it is next.</li>
+<li>As a user, I should not be able to click the same square twice.</li>
+<li>As a user, I should be shown a message when I win, lose or tie.</li>
+<li>As a user, I should not be able to continue playing once I win, lose, or tie.</li>
+<li>As a user, I should be able to play the game again without refreshing the page.</li>
+</ul>
 </p>
