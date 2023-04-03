@@ -1,0 +1,61 @@
+
+README Outline
+
+I. Introduction
+II. Installation
+    *None -> click on link to play in browser or phone -> link
+III. The Planning Process
+     1. Identify the "minimum viable product (MVP)"
+     2. Prioritizing the User Stories
+            A. Need to complete MVP (Bronze) stories first -> the bare minimum to identify the product.
+     2. Wireframes (images)
+            A. Game Flow chart 
+            B. Prototype/Sketch
+     3. Github Projects: Used to to help plan and track work (reduce scope creep)
+     4. Technical Requirements
+            A. Build a web application from scratch with semantic markup for HTML, CSS & JavaScript (DOM manipulation).
+            B. Build a dynamic game that allows two players to compete from the same computer.
+            C. Separate HTML, CSS, and JavaScript files in the application.
+            D. Leverage DRY (Don't Repeat Yourself) principles.
+            E. The application renders in various browsers (Chrome & Edge) and runs without errors.
+            F. The project should be deployed to GitHub Pages or a custom domain.
+            G. The repo must have a README that adequately documents the project.
+IV. Building the Game
+    1. Pseudo Code
+       *Describe how you solved for the winner;
+       *Describe how some of your favorite functions work.
+    2. Technologies/Tools Used
+            A. Project Planning
+                  i. Github Projects (Kanban Board)
+            B. Version Control
+                  i. GitHub
+            C. Developer Tools
+                  i. Git Bash (Command Line)
+                  ii. Visual Studio Code (Text Editor)
+                  iii. Chrome Developer Tools (Inspect & Debugging)
+                  iv. Google Chrome Browser (Displaying/Inspecting the App on Desktop)
+                  v. Safari Browser (Displaying/Inspecting the App on iPhone)
+            D. Wireframing
+                  i. Canva
+            E. Languages & Frameworks
+                  i. HTML
+                  ii. CSS (Styling)
+                  iii. Bootstrap (CSS Framework)
+                  iv. JavaScript
+            F. Royalty Free Images, Fonts & Audio
+                  i. Pixabay
+                  ii. Google Fonts
+                  iii. Soundstripe
+            G. Deployment
+                  i. GitHub Pages
+    3. The Finished Product -> Current Features
+            A. Bronze MVP
+            B. Silver MVP
+            C. Gold MVP
+    4. Challenges
+    5. What I Learned
+V. Useful Resources
+   *MDN
+VI. Continued Development
+
+

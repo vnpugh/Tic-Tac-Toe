@@ -1,6 +1,7 @@
 <p align="center">
   <img width="270" height="150" src="images/readme_pic.png" alt="Galaxy">
 </p>
+Developer: Velvet Pugh 2023
 <hr>
 <h1>Introduction</h1>
 <p>
