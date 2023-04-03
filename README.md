@@ -17,7 +17,7 @@ In the case of building a Tic-Tac-Toe board, the acceptable MVP consists of an H
 <ul>
 <li>As a user, I should be able to start a new tic tac toe game.✅</li>
 <li>As a user, I should be able to click on a square to add X first and then O, and so on.✅</li>
-<li>As a user, I should be shown a message after each turn for if I win, lose, tie or who's turn it is next.✅</li>
+<li>As a user, I should be shown a message after each turn for if I win, lose, tie or who's next.✅</li>
 <li>As a user, I should not be able to click the same square twice.✅</li>
 <li>As a user, I should be shown a message when I win, lose or tie.✅</li>
 <li>As a user, I should not be able to continue playing once I win, lose, or tie.✅</li>

@@ -13,7 +13,7 @@ body {
     align-items: center;
     overflow-x: hidden;
     overflow-y: hidden;  /*prevent scrolling on page*/
-    margin-top: 3rem;
+   margin: 0.3rem;
 }
 
 .first-h1{/*Galaxy*/
@@ -66,6 +66,11 @@ body {
     cursor: pointer;
     align-items: center;
     font-size: 50px;
+}
+.cell:hover{
+  background-color: #351070;
+  box-shadow: 0px 4px 4px 4px white;
+ 
 }
 
 .btn-container{
