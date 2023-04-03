@@ -86,6 +86,19 @@ time to research the implementation process and to write the code.
 </p>
 <h1>The Finished Product</h1>
 <h2>Galaxy Tic-Tac-Toe</h2>
+</p>
+<p>
+Desktop Screenshot
+<img align="center" width="200" height="200" src="images/desktop.png" alt="desktop">
+</p>
+<p>
+Tablet Screenshot
+<img align="center" width="200" height="200" src="images/tablet.png" alt="tablet">
+</p>
+<p>
+Mobile (iPhone) Screenshot
+<img align="center" width="200" height="300" src="images/mobile.png" alt="mobile">
+</p>
 
 <h3>Current Features</h3>
 <ul>
