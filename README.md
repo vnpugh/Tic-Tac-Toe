@@ -41,7 +41,7 @@ I prioritized the user stories using the Projects tool in GitHub after building 
 <h1>Building the Game</h1>
  <h2>Technical Requirements</h2>
  <ul>
-<li>Build a web application from scratch with semantic markup for HTML, CSS & JavaScript (DOM     m  manipulation).✅</li>
+<li>Build a web app from scratch with semantic markup for HTML, CSS & JavaScript (DOM manipulation).✅</li>
 <li>Build a dynamic game that allows two players to compete from the same computer.✅</li>
 <li>Separate HTML, CSS, and JavaScript files in the application.✅</li>
 <li>Leverage DRY (Don't Repeat Yourself) principles.✅</li>
@@ -91,11 +91,10 @@ time to research the implementation process and to write the code.
 <h4>Tablet Screenshot</h4>
 <img width="520" height="500" src="images/tablet.png" alt="tablet">
 <h4>Mobile (iPhone) Screenshot</h4>
-<img width="300" height="510" src="images/mobile.jpg" alt="mobile">
-
-<h3>Current Features</h3>
+<img width="280" height="510" src="images/mobile.jpg" alt="mobile">
+<h2>Current Features</h2>
 <ul>
- <li>Wireframing</li>
-  <li>Wireframing</li>
-   <li>Wireframing</li>
+<li>Emojis are used for Player X (👽) and Player O (👾) to make the game fun and engaging.</li>
+<li>The user will hear various click sounds when the cells and 'Reset Game' button are clicked.</li>
+<li>Each cell changes color when the player hovers over with their cursor. </li>
 </ul>
