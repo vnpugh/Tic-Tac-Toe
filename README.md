@@ -33,7 +33,7 @@ I also made a simple Tic-Tac-Toe flow chart to further polish the game's reasoni
 <p align="center">
 <img align="center" width="500" height="300" src="images/Interface.png" alt="wireframe">
 </p>
-<h2>Project Management</h2> br
+<h2>Project Management</h2>
 I prioritized the user stories using the Projects tool in GitHub after building the UI wireframe, flowchart, and analyzing the necessary user stories. This method was very useful because it allowed me to keep track of my progress by grouping and sorting the user stories according to their level of difficulty.
 <p align="center">
 <img align="center" width="510" height="320" src="images/gitprojects.png" alt="projects">
@@ -50,7 +50,30 @@ I prioritized the user stories using the Projects tool in GitHub after building 
 <li>The repo must have a README that adequately documents the project.✅</li>
 </ul>
  <h2>Technologies & Tools Used 🛠️</h2>
-  <ul>
- *Build a web application from scratch with semantic markup for HTML, CSS & JavaScript (DOM manipulation).</li>
-
+<ul>
+ <li>Project Management</li>
+ 📋Github Projects (Kanban Board)
+ <li>Version Control</li>
+ ⬛GitHub
+ <li>Developer Tools</li>
+Git Bash (Command Line)
+Visual Studio Code (Text Editor)
+Chrome Developer Tools (Inspect & Debugging)
+Google Chrome Browser (Displaying/Inspecting the App on Desktop)
+Safari Browser (Displaying/Inspecting the App on iPhone)
+ <li>Wireframing</li>
+ Canva
+ <li>Languages & Frameworks</li>
+   i. HTML
+  ii. CSS (Styling)
+ iii. Bootstrap (CSS Framework)
+iv. JavaScript
+ <li>Royalty Free Images, Fonts & Audio</li>
+     i. Pixabay
+     ii. Google Fonts
+    iii. Soundstripe
+ <li>Deployment</li>
+ GitHub Pages
+ <li></li>
+ <li></li>
 </ul>
