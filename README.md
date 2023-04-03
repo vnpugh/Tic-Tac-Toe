@@ -87,11 +87,11 @@ time to research the implementation process and to write the code.
 <h1>The Finished Product</h1>
 <h2>Galaxy Tic-Tac-Toe</h2>
 <h5>Desktop Screenshot</h5>
-<img align="center" width="300" height="300" src="images/desktop.png" alt="desktop">
+<img align="center" width="420" height="400" src="images/desktop.png" alt="desktop">
 <h5>Tablet Screenshot</h5>
-<img align="center" width="300" height="300" src="images/tablet.png" alt="tablet">
+<img align="center" width="400" height="400" src="images/tablet.png" alt="tablet">
 <h5>Mobile (iPhone) Screenshot</h5>
-<img align="center" width="300" height="400" src="images/mobile.jpg" alt="mobile">
+<img align="center" width="300" height="500" src="images/mobile.jpg" alt="mobile">
 
 <h3>Current Features</h3>
 <ul>
