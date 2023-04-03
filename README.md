@@ -102,14 +102,14 @@ time to research the implementation process and to write the code.
 <li>Refresh and start a new game with ease by simply clicking on the 'Reset Game' button.</li>
 <li>Play wherever you want, whenever you want, as our fully responsive game adapts to any device you use, whether it's a desktop, tablet or mobile phone.</li>
 </ul>
-<h1>What I Learned</h1>
+<h1>What I Learned📚</h1>
 <p>◾Through the use of the MDN Docs, I have significantly enhanced my understanding of JavaScript, far beyond the rudimentary fundamentals. Specifically, the checkForWin function in my code employs a sophisticated technique known as <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment">Destructuring assignment</a>(binding pattern) to assign the values of a combination to variables [a, b, c]. </p>
 <p align="center">
-<img width="280" height="250" src="images/checkforwin.png" alt="win">
+<img width="300" height="250" src="images/checkforwin.png" alt="win">
 </p>
 <p> This approach then leverages the textContent property to verify whether the current player's symbol appears in all three corresponding cells.This crucial logic function is of utmost significance, as it enables the checking of a win in three possible directions: horizontal, vertical, and diagonal, while utilizing an array pattern instead of multiple IF statements, resulting in a more functional code structure. </p>
 <h1>Icebox🧊</h1>
-<h3>Some advanced features that I would like to implement in the future:</h3>
+<h3>Here are some advanced features I would like to implement in the future:</h3>
 <ul>
 <li>Create a score board to keep track of each player's scores.</li>
 <li>Add local storage to store data permanently in a web browser.This feature will also allow
