@@ -31,11 +31,8 @@ In the case of building a Tic-Tac-Toe board, the acceptable MVP consists of an H
 </p>
 <h2>Wireframing</h2>
 <p>Developing a successful game requires proper planning and attention to detail. Before jumping into the code, I created a basic wireframe to visualize the game's interface and identify potential challenges and areas for optimization. Breaking down each component individually helped me to analyze the user experience and ensure that each aspect of the interface would work together seamlessly. To further refine the game's logic, I also created a basic Tic-Tac-Toe flow chart. These techniques enabled me to design a game that not only met the project's objectives but also delivered an enjoyable user experience.
+</p>
 
-<p align="center">
-  <img width="270" height="150" src="images/wireframe.png" alt="wireframe">
-</p>
-<p align="center">
-  <img width="270" height="200" src="images/flowchart.png" alt="flowchart">
-</p>
-</p>
+
+
+
