@@ -95,6 +95,10 @@ time to research the implementation process and to write the code.
 <h2>Current Features</h2>
 <ul>
 <li>Emojis are used for Player X (👽) and Player O (👾) to make the game fun and engaging.</li>
-<li>The user will hear various click sounds when the cells and 'Reset Game' button are clicked.</li>
-<li>Each cell changes color when the player hovers over with their cursor. </li>
+<li>The players will hear various click sounds when the cells and 'Reset Game' button are clicked.</li>
+<li>Each cell changes color when the players hover over the cells with their cursors. </li>
+<li>A different winning sound will be played for Player X (👽) and Player O (👾). </li>
+<li>The players will see a message when they have won the game or if the game is a tie.</li>
+<li> The player will be able to start a new game and/or refresh the cells by clicking on the 'Reset Game' button.</li>
+<li> The game is fully responsive and can be played on a desktop, tablet or mobile phone.</li>
 </ul>
