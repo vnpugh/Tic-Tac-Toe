@@ -112,19 +112,19 @@ body {
 
   @media only screen and (min-width: 600px) {
     .first-h1{
-      font-size: 2rem;
+      font-size: 1rem;
 
       text-align: center;
     }
     .second-h1{
-         font-size: 2rem;
+         font-size: 1rem;
    
     }
     .cell {
-      width: 50px;
-      height: 50px;
-      margin: 5px;
-      font-size: 20px;
+      width: 20px;
+      height: 20px;
+      margin: 2px;
+      font-size: 15px;
   }
   
   }
