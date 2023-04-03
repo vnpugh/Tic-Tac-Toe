@@ -1,3 +1,5 @@
+\*Table of Contents -> automatically generated in the markdown
+
 <h1>Introduction</h1>
 <p>
 Are you ready to play a classic game? Tic-Tac-Toe, also known as Noughts and Crosses, is a timeless game played by two players on a 3x3 grid. This project is all about creating a fun and interactive version of Tic-Tac-Toe that you can play with a friend on the same computer. By leveraging HTML, CSS, vanilla JavaScript, and DOM manipulation, I've created a dynamic game that is easy to play and visually appealing while following best coding practices (Don't Repeat Yourself). So, get ready to experience the classic game like never before.
@@ -25,8 +27,28 @@ In the case of building a Tic-Tac-Toe board, the acceptable MVP consists of an H
 </ul>
 </p>
 <h2>Wireframing</h2>
-<p>Developing a successful game requires proper planning and attention to detail. Before jumping into the code, I created a basic wireframe to visualize the game's interface and identify potential challenges and areas for optimization. Breaking down each component individually helped me to analyze the user experience and ensure that each aspect of the interface would work together seamlessly. To further refine the game's logic, I also created a basic Tic-Tac-Toe flow chart. These techniques enabled me to design a game that not only met the project's objectives but also delivered an enjoyable user experience.
+<p>A successful game requires preparation and close attention to detail. I made a simple wireframe of the game's interface before diving into the code to help me visualize likely issues and areas for improvement. I was able to evaluate the user experience and make sure that every element of the interface would function in unison by dissecting each component separately.
+</p>
+<p>
+I also made a simple Tic-Tac-Toe flow chart to further polish the game's reasoning. This method was also useful for writing the game's pseudocode. Overall, this gave me the ability to create a game that not only achieved the project's goals but also provides a positive user experience.
 </p>
 <p align="center">
 <img align="center" width="500" height="300" src="images/Interface.png" alt="wireframe">
 </p>
+<h2>Project Management</h2>
+I prioritized the user stories using the Projects tool in GitHub after building the UI wireframe, flowchart, and analyzing the necessary user stories. This method was very useful because it allowed me to keep track of my progress by grouping and sorting the user stories according to their level of difficulty.
+<p align="center">
+<img align="center" width="500" height="300" src="images/gitprojects.png" alt="projects">
+</p>
+
+<h1>Building the Game</h1>
+ <h2>Technical Requirements</h2>
+ <ul>
+<li>Build a web application from scratch with semantic markup for HTML, CSS & JavaScript (DOM manipulation).</li>
+<li>Build a dynamic game that allows two players to compete from the same computer.</li>
+<li>Separate HTML, CSS, and JavaScript files in the application.</li>
+<li>Leverage DRY (Don't Repeat Yourself) principles.</li>
+<li>The application renders in various browsers (Chrome & Edge) and runs without errors.</li>
+<li> The project should be deployed to GitHub Pages or a custom domain.</li>
+<li>The repo must have a README that adequately documents the project.</li>
+</ul>
