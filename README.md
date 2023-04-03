@@ -36,7 +36,7 @@ I also made a simple Tic-Tac-Toe flow chart to further polish the game's reasoni
 <h2>Project Management</h2>
 I prioritized the user stories using the Projects tool in GitHub after building the UI wireframe, flowchart, and analyzing the necessary user stories. This method was very useful because it allowed me to keep track of my progress by grouping and sorting the user stories according to their level of difficulty.
 <p align="center">
-<img align="center" width="500" height="400" src="images/gitprojects.png" alt="projects">
+<img align="center" width="520" height="400" src="images/gitprojects.png" alt="projects">
 </p>
 <h1>Building the Game</h1>
  <h2>Technical Requirements</h2>
@@ -51,34 +51,39 @@ I prioritized the user stories using the Projects tool in GitHub after building 
 </ul>
  <h2>Technologies & Tools Used 🛠️</h2>
 <ul>
- <li>Project Management</li>
+ <li><strong>Project Management</strong></li>
  📋Github Projects (Kanban Board)
- <li>Version Control</li>
+ <li><strong>Version Control</strong></li>
  🕛GitHub
- <li>Developer Tools</li>
+ <li><strong>Developer Tools</strong></li>
 ⬛Git Bash (Command Line)
 ⬛Visual Studio Code (Text Editor)
-💻Chrome Developer Tools (Inspect & Debugging)
- <li>Wireframing</li>
+💻Chrome Developer Tools
+ <li><strong>Wireframing</strong></li>
  🎨Canva
- <li>Languages & Frameworks</li>
+ <li><strong>Languages & Frameworks</strong></li>
 ➕HTML
 ➕CSS
 ➕Bootstrap (CSS Framework)
 ➕JavaScript
- <li>Royalty Free Images, Fonts & Audio</li>
+ <li><strong>Royalty Free Images, Fonts & Audio</strong></li>
 🖼️Pixabay
  ➰Google Fonts
  🎵Soundstripe
- <li>Deployment</li>
+ <li><strong>Deployment</strong></li>
  🖥️GitHub Pages
 </ul>
  <h2>Project Challenges😖</h2>
 <p>◾One hurdle for me was figuring out how to implement some of the GOLD product features such as local storage and playing against the computer (AI). This was frustrating because I wanted to add these advanced features to the finished product, but time was not on my side. I needed more
 time to research the implementation process and to write the code.
 </p>
-
+<p>◾I encountered another challenge during this project while working on CSS styling. I had envisioned a vibrant, gradient background with perfectly positioned buttons. However, CSS can be quite tricky and requires a lot of trial and error to get the desired layout. To overcome this obstacle, I made the decision to incorporate Bootstrap styling for the 'Reset Game' button and opted for a full-width image to serve as the background. By doing so, I was able to achieve the aesthetic I was aiming for while saving myself a great deal of time and frustration in the process.
+</p>
  <h2>Project Wins🏆</h2>
+<p>◾Leveraging the project tools in Github proved to be a huge win for me! As someone who isn't quick to dive into coding, I require structure and guidance with a clear plan of action complete with start and due dates to keep me on track. I'm proud to say that by committing my work to Github regularly, I was able to meet all of my project deadlines and achieved a great sense of accomplishment throughout the process.
+</p>
+<p>◾I'm thrilled to say that I was able to take my game beyond the MVP (Minimum Viable Product) stage and create a fully functional, interactive experience. One of my biggest accomplishments was incorporating audio and emoji features that took the game to a whole new level. By conducting thorough research and careful planning, I was able to push the product features to a SILVER level, exceeding my initial expectations. I'm extremely proud of the end result and the amount of effort that went into making it happen.
+</p>
 <h1>The Finished Product</h1>
 <h2>Galaxy Tic-Tac-Toe</h2>
 
