@@ -1,5 +1,3 @@
-\*Table of Contents -> automatically generated in the markdown
-
 <h1>Introduction</h1>
 <p>
 Are you ready to play a classic game? Tic-Tac-Toe, also known as Noughts and Crosses, is a timeless game played by two players on a 3x3 grid. This project is all about creating a fun and interactive version of Tic-Tac-Toe that you can play with a friend on the same computer. By leveraging HTML, CSS, vanilla JavaScript, and DOM manipulation, I've created a dynamic game that is easy to play and visually appealing while following best coding practices (Don't Repeat Yourself). So, get ready to experience the classic game like never before.
@@ -38,7 +36,7 @@ I also made a simple Tic-Tac-Toe flow chart to further polish the game's reasoni
 <h2>Project Management</h2>
 I prioritized the user stories using the Projects tool in GitHub after building the UI wireframe, flowchart, and analyzing the necessary user stories. This method was very useful because it allowed me to keep track of my progress by grouping and sorting the user stories according to their level of difficulty.
 <p align="center">
-<img align="center" width="500" height="300" src="images/gitprojects.png" alt="projects">
+<img align="center" width="510" height="400" src="images/gitprojects.png" alt="projects">
 </p>
 
 <h1>Building the Game</h1>
@@ -46,6 +44,16 @@ I prioritized the user stories using the Projects tool in GitHub after building 
  <ul>
 <li>Build a web application from scratch with semantic markup for HTML, CSS & JavaScript (DOM manipulation).</li>
 <li>Build a dynamic game that allows two players to compete from the same computer.</li>
+<li>Separate HTML, CSS, and JavaScript files in the application.</li>
+<li>Leverage DRY (Don't Repeat Yourself) principles.</li>
+<li>The application renders in various browsers (Chrome & Edge) and runs without errors.</li>
+<li> The project should be deployed to GitHub Pages or a custom domain.</li>
+<li>The repo must have a README that adequately documents the project.</li>
+</ul>
+ <h2>Technologies/Tools Used</h2>
+ <ul>
+<h3>Project Management</h3>
+<li>Github Projects (Kanban Board)</li>
 <li>Separate HTML, CSS, and JavaScript files in the application.</li>
 <li>Leverage DRY (Don't Repeat Yourself) principles.</li>
 <li>The application renders in various browsers (Chrome & Edge) and runs without errors.</li>

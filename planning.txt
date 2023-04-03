@@ -8,12 +8,12 @@ III. The Planning Process
      1. Identify the "minimum viable product (MVP)"
      2. Prioritizing the User Stories
             A. Need to complete MVP (Bronze) stories first -> the bare minimum to identify the product.
-     2. Wireframes (images)
+     3. Wireframes (images)
             A. Game Flow chart 
             B. Prototype/Sketch
-     3. Github Projects: Used to to help plan and track work (reduce scope creep)
+     4. Github Projects: Used to to help plan and track work (reduce scope creep)
 IV. Building the Game
-   1. Technical Requirements
+     1. Technical Requirements
             A. Build a web application from scratch with semantic markup for HTML, CSS & JavaScript (DOM manipulation).
             B. Build a dynamic game that allows two players to compete from the same computer.
             C. Separate HTML, CSS, and JavaScript files in the application.
@@ -21,10 +21,8 @@ IV. Building the Game
             E. The application renders in various browsers (Chrome & Edge) and runs without errors.
             F. The project should be deployed to GitHub Pages or a custom domain.
             G. The repo must have a README that adequately documents the project.
-    2. Challenges
-       *Describe how you solved for the winner;
-       *Describe how some of your favorite functions work.
-    3. Technologies/Tools Used
+
+      2. Technologies/Tools Used
             A. Project Management
                   i. Github Projects (Kanban Board)
             B. Version Control
@@ -48,7 +46,11 @@ IV. Building the Game
                   iii. Soundstripe
             G. Deployment
                   i. GitHub Pages
-    4. The Finished Product -> Current Features
+
+      3. Challenges
+          *Describe how you solved for the winner;
+          *Describe how some of your favorite functions work.
+      4. The Finished Product -> Current Features
             A. Bronze MVP
             B. Silver MVP
             C. Gold MVP
