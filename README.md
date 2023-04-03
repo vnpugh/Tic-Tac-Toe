@@ -5,7 +5,7 @@ Are you ready to play a classic game? Tic-Tac-Toe, also known as Noughts and Cro
 <h2>Installation</h2>
 <p>
 No installation is needed to play the game. The application can be played in the browser of your choice by clicking
-the following link: (*Add deployed page*)
+the following link: https://vnpugh.github.io/Tic-Tac-Toe/
 </p>
 <h1>The Planning Process</h1>
 <h2>Prioritizing the User Stories</h2>
@@ -94,11 +94,11 @@ time to research the implementation process and to write the code.
 <img width="280" height="500" src="images/mobile.jpg" alt="mobile">
 <h2>Current Features</h2>
 <ul>
-<li>Emojis are used for Player X (👽) and Player O (👾) to make the game fun and engaging.</li>
-<li>The players will hear various click sounds when the cells and 'Reset Game' button are clicked.</li>
-<li>Each cell changes color when the players hover over the cells with their cursors. </li>
-<li>A different winning sound will be played for Player X (👽) and Player O (👾). </li>
-<li>The players will see a message when they have won the game or if the game is a tie.</li>
-<li> The player will be able to start a new game and/or refresh the cells by clicking on the 'Reset Game' button.</li>
-<li> The game is fully responsive and can be played on a desktop, tablet or mobile phone.</li>
+<li>Meet Player X (👽) and Player O (👾), the fun-loving emojis that will bring life to your game!</li>
+<li>Listen to the satisfying clicks as you choose your cells and reset the game for another round of exciting gameplay!</li>
+<li>Watch the cells light up in purple as you hover over them with your cursor.</li>
+<li>Celebrate your victories with a unique sound for each player, adding to the thrilling experience of the game!</li>
+<li>Get ready for personalized messages that will let you know if you've won or if the game ends in a tie!</li>
+<li>Refresh and start a new game with ease by simply clicking on the 'Reset Game' button.</li>
+<li>Play wherever you want, whenever you want, as our fully responsive game adapts to any device you use, whether it's a desktop, tablet or mobile phone.</li>
 </ul>
