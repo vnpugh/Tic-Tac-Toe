@@ -15,13 +15,13 @@ Planning before writing code and starting a project is crucial to ensure its suc
 <p>
 In the case of building a Tic-Tac-Toe board, the acceptable MVP consists of an HTML page with a table of nine cells, enough Javascript to display the current player, and a touch of CSS to make the cells visible. Focusing on the MVP first allowed me to get a good understanding of the required <strong>user stories</strong> needed to build the game:
 <ul>
-<li>As a user, I should be able to start a new tic tac toe game.</li>
-<li>As a user, I should be able to click on a square to add X first and then O, and so on.</li>
-<li>As a user, I should be shown a message after each turn for if I win, lose, tie or who's turn it is next.</li>
-<li>As a user, I should not be able to click the same square twice.</li>
-<li>As a user, I should be shown a message when I win, lose or tie.</li>
-<li>As a user, I should not be able to continue playing once I win, lose, or tie.</li>
-<li>As a user, I should be able to play the game again without refreshing the page.</li>
+<li>As a user, I should be able to start a new tic tac toe game.✅</li>
+<li>As a user, I should be able to click on a square to add X first and then O, and so on.✅</li>
+<li>As a user, I should be shown a message after each turn for if I win, lose, tie or who's turn it is next.✅</li>
+<li>As a user, I should not be able to click the same square twice.✅</li>
+<li>As a user, I should be shown a message when I win, lose or tie.✅</li>
+<li>As a user, I should not be able to continue playing once I win, lose, or tie.✅</li>
+<li>As a user, I should be able to play the game again without refreshing the page.✅</li>
 </ul>
 </p>
 <h2>Wireframing</h2>
@@ -36,7 +36,7 @@ I also made a simple Tic-Tac-Toe flow chart to further polish the game's reasoni
 <h2>Project Management</h2>
 I prioritized the user stories using the Projects tool in GitHub after building the UI wireframe, flowchart, and analyzing the necessary user stories. This method was very useful because it allowed me to keep track of my progress by grouping and sorting the user stories according to their level of difficulty.
 <p align="center">
-<img align="center" width="510" height="400" src="images/gitprojects.png" alt="projects">
+<img align="center" width="510" height="320" src="images/gitprojects.png" alt="projects">
 </p>
 
 <h1>Building the Game</h1>
@@ -50,13 +50,4 @@ I prioritized the user stories using the Projects tool in GitHub after building 
 <li> The project should be deployed to GitHub Pages or a custom domain.</li>
 <li>The repo must have a README that adequately documents the project.</li>
 </ul>
- <h2>Technologies/Tools Used</h2>
- <ul>
-<h3>Project Management</h3>
-<li>Github Projects (Kanban Board)</li>
-<li>Separate HTML, CSS, and JavaScript files in the application.</li>
-<li>Leverage DRY (Don't Repeat Yourself) principles.</li>
-<li>The application renders in various browsers (Chrome & Edge) and runs without errors.</li>
-<li> The project should be deployed to GitHub Pages or a custom domain.</li>
-<li>The repo must have a README that adequately documents the project.</li>
-</ul>
+ <h2>Technologies & Tools Used</h2>
