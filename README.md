@@ -84,7 +84,7 @@ time to research the implementation process and to write the code.
 </p>
 <p>◾I'm thrilled to say that I was able to take my game beyond the MVP (Minimum Viable Product) stage and create a fully functional, interactive experience. One of my biggest accomplishments was incorporating audio and emoji features that took the game to a whole new level. By conducting thorough research and careful planning, I was able to push the product features to a SILVER level, exceeding my initial expectations. I'm extremely proud of the end result and the amount of effort that went into making it happen.
 </p>
-<h1>The Finished Product</h1>
+<h1>The Finished Product📱</h1>
 <h2>Galaxy Tic-Tac-Toe</h2>
 <h4>Desktop Screenshot</h4>
 <img width="1600" height="400" src="images/desktop.png" alt="desktop">
@@ -102,3 +102,7 @@ time to research the implementation process and to write the code.
 <li>Refresh and start a new game with ease by simply clicking on the 'Reset Game' button.</li>
 <li>Play wherever you want, whenever you want, as our fully responsive game adapts to any device you use, whether it's a desktop, tablet or mobile phone.</li>
 </ul>
+<h1>What I Learned</h1>
+<p>◾Through the use of the MDN Docs, I have significantly enhanced my understanding of JavaScript, far beyond the rudimentary fundamentals. Specifically, the checkForWin function in my code employs a sophisticated technique known as Destructuring assignment (binding pattern) to assign the values of a combination to variables [a, b, c]. </p>
+<img width="200" height="200" src="images/checkforwin.png" alt="win">
+<p> This approach then leverages the textContent property to verify whether the current player's symbol appears in all three corresponding cells.This crucial logic function is of utmost significance, as it enables the checking of a win in three possible directions: horizontal, vertical, and diagonal, while utilizing an array pattern instead of multiple IF statements, resulting in a more functional code structure. </p>
