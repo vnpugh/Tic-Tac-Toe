@@ -54,26 +54,25 @@ I prioritized the user stories using the Projects tool in GitHub after building 
  <li>Project Management</li>
  📋Github Projects (Kanban Board)
  <li>Version Control</li>
- ⬛GitHub
+ 🕛GitHub
  <li>Developer Tools</li>
-Git Bash (Command Line)
-Visual Studio Code (Text Editor)
-Chrome Developer Tools (Inspect & Debugging)
-Google Chrome Browser (Displaying/Inspecting the App on Desktop)
-Safari Browser (Displaying/Inspecting the App on iPhone)
+⬛Git Bash (Command Line)
+⬛Visual Studio Code (Text Editor)
+💻Chrome Developer Tools (Inspect & Debugging)
+💻Google Chrome Browser (Displaying/Inspecting the App on Desktop)
+💻Safari Browser (Displaying/Inspecting the App on iPhone)
  <li>Wireframing</li>
- Canva
+ 🎨Canva
  <li>Languages & Frameworks</li>
-   i. HTML
-  ii. CSS (Styling)
- iii. Bootstrap (CSS Framework)
-iv. JavaScript
+➕HTML
+➕CSS
+➕Bootstrap (CSS Framework)
+➕JavaScript
  <li>Royalty Free Images, Fonts & Audio</li>
-     i. Pixabay
-     ii. Google Fonts
-    iii. Soundstripe
+🖼️Pixabay
+ ➰Google Fonts
+ 🎵   iii. Soundstripe
  <li>Deployment</li>
- GitHub Pages
- <li></li>
- <li></li>
+ 🖥️GitHub Pages
+
 </ul>
