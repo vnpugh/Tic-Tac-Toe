@@ -104,5 +104,7 @@ time to research the implementation process and to write the code.
 </ul>
 <h1>What I Learned</h1>
 <p>◾Through the use of the MDN Docs, I have significantly enhanced my understanding of JavaScript, far beyond the rudimentary fundamentals. Specifically, the checkForWin function in my code employs a sophisticated technique known as Destructuring assignment (binding pattern) to assign the values of a combination to variables [a, b, c]. </p>
-<img width="200" height="200" src="images/checkforwin.png" alt="win">
+<p align="center">
+<img width="280" height="250" src="images/checkforwin.png" alt="win">
+</p>
 <p> This approach then leverages the textContent property to verify whether the current player's symbol appears in all three corresponding cells.This crucial logic function is of utmost significance, as it enables the checking of a win in three possible directions: horizontal, vertical, and diagonal, while utilizing an array pattern instead of multiple IF statements, resulting in a more functional code structure. </p>
