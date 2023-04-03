@@ -110,6 +110,26 @@ body {
   }
 
 
+  @media only screen and (min-width: 600px) {
+    .first-h1{
+      font-size: 2rem;
+
+      text-align: center;
+    }
+    .second-h1{
+         font-size: 2rem;
+   
+    }
+    .cell {
+      width: 50px;
+      height: 50px;
+      margin: 5px;
+      font-size: 20px;
+  }
+  
+  }
+
+
 
 
 
