@@ -87,17 +87,20 @@ I prioritized the user stories using the Projects tool in GitHub after building 
 <p>◾I'm thrilled to say that I was able to take my game beyond the MVP (Minimum Viable Product) stage and create a fully functional, interactive experience. One of my biggest accomplishments was incorporating audio and emoji features that took the game to a whole new level. By conducting thorough research and careful planning, I was able to push the product features to a SILVER level, exceeding my initial expectations. I'm extremely proud of the end result and the amount of effort that went into making it happen.
 </p>
 <h1>The Finished Product📱</h1>
-<h2>Galaxy Tic-Tac-Toe🛸</h2>
-<h4>Desktop Screenshot</h4>
+<h2><a href="https://vnpugh.github.io/Tic-Tac-Toe/">Galaxy Tic-Tac-Toe🛸</a></h2>
+<h3 align="center">Desktop Screenshot: Player 👽 (X) Wins!</h3>
+<p>
 <img width="1600" height="400" src="images/desktop.png" alt="desktop">
-<h4>Tablet Screenshots</h4>
+</p>
+<h3 align="center">Tablet Screenshot: It's a Tie!</h3>
 <p align="center">
 <img width="520" height="480" src="images/tablet1.png" alt="tablet">
 </p>
+<h3 align="center">Tablet Screenshot: Player 👾 (O) Wins!</h3>
 <p align="center">
 <img width="520" height="480" src="images/tablet2.png" alt="tablet">
 </p>
-<h4>Mobile (iPhone) Screenshot</h4>
+<h3 align="center">Mobile (iPhone) Screenshot</h3>
 <p align="center">
 <img width="520" height="480" src="images/iphone.png" alt="iphone">
 </p>
