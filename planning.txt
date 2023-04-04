@@ -57,6 +57,8 @@ IV. Building the Game
     5. What I Learned
 V. Useful Resources
    *MDN
-VI. Continued Development
+VI. Credit
+*MDN
+*StackOverflow
 
 
