@@ -94,7 +94,7 @@ I prioritized the user stories using the Projects tool in GitHub after building 
 <img width="520" height="480" src="images/tablet1.png" alt="tablet">
 <img width="520" height="480" src="images/tablet2.png" alt="tablet">
 <h4>Mobile (iPhone) Screenshot</h4>
-<img width="280" height="500" src="images/iphone.jpg" alt="iphone">
+<img width="280" height="500" src="images/iphone.png" alt="iphone">
 <h2>Current Features👽</h2>
 <ul>
 <li>Meet Player X (👽) and Player O (👾), the fun-loving emojis that will bring life to your game!</li>
