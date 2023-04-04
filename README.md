@@ -91,7 +91,7 @@ I prioritized the user stories using the Projects tool in GitHub after building 
 <h4>Desktop Screenshot</h4>
 <img width="1600" height="400" src="images/desktop.png" alt="desktop">
 <h4>Tablet Screenshot</h4>
-<img width="520" height="480" src="images/tablet.png" alt="tablet">
+<img width="520" height="480" src="images/tie.png" alt="tablet">
 <h4>Mobile (iPhone) Screenshot</h4>
 <img width="280" height="500" src="images/mobile.jpg" alt="mobile">
 <h2>Current Features👽</h2>
@@ -102,17 +102,17 @@ I prioritized the user stories using the Projects tool in GitHub after building 
 <li>Celebrate your victories with a unique sound for each player, adding to the thrilling experience of the game!</li>
 <li>Get ready for personalized messages that will let you know if you've won or if the game ends in a tie!</li>
 <li>Refresh and start a new game with ease by simply clicking on the 'Reset Game' button.</li>
-<li>Play wherever you want, whenever you want, as our fully responsive game adapts to any device you use, whether it's a desktop, tablet or mobile phone.</li>
+<li>Play wherever you want, whenever you want, as the game is fully responsive and will adapt to any device you use, whether it's a desktop,
+tablet or mobile phone.</li>
 </ul>
 <h1>What I Learned📚</h1>
 <p>◾Through the use of the MDN Web Docs, I have significantly enhanced my understanding of JavaScript, far beyond the rudimentary fundamentals. Specifically, the checkForWin function in my code employs a sophisticated technique known as <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment">Destructuring assignment</a> (binding pattern) to assign the values of a combination to variables [a, b, c]. </p>
 <p align="center">
 <img width="300" height="250" src="images/checkforwin.png" alt="win">
 </p>
-<p> This approach then leverages the textContent property to verify whether the current player's symbol appears in all three corresponding cells. 
+<p>◾This approach then leverages the textContent property to verify whether the current player's symbol appears in all three corresponding cells. 
 This logic function is important, as it enables the checking of a win in three possible directions: horizontal, vertical, and diagonal, while utilizing an array pattern instead of multiple IF statements, resulting in a more functional code structure. </p>
-<p>Additionally, this project has given me a better grasp of how to manipulate the DOM, create event listeners to detect a player's click on a cell on the game board,
-and write a function that checks for different outcomes like a win, tie, or loss. </p>
+<p>◾Additionally, this project has given me a better grasp of how to manipulate the DOM, create event listeners to detect a player's click on a cell on the game board, and write a function that checks for different outcomes like a win, tie, or loss. </p>
 <h1>Icebox🧊</h1>
 <h3>Here are some features I would like to implement in the future:</h3>
 <ul>
@@ -132,7 +132,7 @@ and write a function that checks for different outcomes like a win, tie, or loss
 </ul>
 <h1>Credit👏</h1>
 <ul>
-<li>Our instructor, Suresh Sigera, provided helpful tips on how to approach this project. One of his top recommendations for tackling this project is to take advantage of the projects tool on Github! </li>
+<li>Our instructor, Suresh Sigera, provided helpful tips on how to approach this project. One of his top recommendations for tackling this project was take advantage of the projects tool on Github! </li>
 <li>MDN: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from">Array.from() Method</a></li>
 <li>MDN: <a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent">textContent Property</a></li>
 <li>MDN: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach">forEach() Method</a></li>
