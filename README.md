@@ -91,10 +91,16 @@ I prioritized the user stories using the Projects tool in GitHub after building 
 <h4>Desktop Screenshot</h4>
 <img width="1600" height="400" src="images/desktop.png" alt="desktop">
 <h4>Tablet Screenshots</h4>
+<p align="center">
 <img width="520" height="480" src="images/tablet1.png" alt="tablet">
+</p>
+<p align="center">
 <img width="520" height="480" src="images/tablet2.png" alt="tablet">
+</p>
 <h4>Mobile (iPhone) Screenshot</h4>
-<img width="280" height="500" src="images/iphone.png" alt="iphone">
+<p align="center">
+<img width="520" height="480" src="images/iphone.png" alt="iphone">
+</p>
 <h2>Current Features👽</h2>
 <ul>
 <li>Meet Player X (👽) and Player O (👾), the fun-loving emojis that will bring life to your game!</li>
