@@ -116,9 +116,12 @@ I prioritized the user stories using the Projects tool in GitHub after building 
 tablet or mobile phone.</li>
 </ul>
 <h1>What I Learned📚</h1>
-<p>◾Through the use of the MDN Web Docs, I have significantly enhanced my understanding of JavaScript, far beyond the rudimentary fundamentals. Specifically, the checkForWin function in my code employs a sophisticated technique known as <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment">Destructuring assignment</a> (binding pattern) to assign the values of a combination to variables [a, b, c]. </p>
+<p>◾Through the use of the MDN Web Docs, I have significantly enhanced my understanding of JavaScript beyond the fundamentals. Specifically, the checkForWin function in my code uses <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment">destructuring assignment</a> (binding pattern) to assign the values of the array combination to the variables a, b, and c. Therefore, this is part of the implementation for checking if any
+of the possible winning combinations on the board match the current player's moves. Next, the .some() method is used to iterate over each of these 
+combinations and checks if the current player has marked all three cells in any of these combinations.
+ </p>
 <p align="center">
-<img width="300" height="250" src="images/checkforwin.png" alt="win">
+<img width="300" height="300" src="images/function.png" alt="function">
 </p>
 <p>◾This approach then leverages the textContent property to verify whether the current player's symbol appears in all three corresponding cells. 
 This logic function is important, as it enables the checking of a win in three possible directions: horizontal, vertical, and diagonal, while utilizing an array pattern instead of multiple IF statements, resulting in a more functional code structure. </p>
